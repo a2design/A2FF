@@ -1,0 +1,35 @@
+<!--
+	category: A2
+	name: Slide de Imagens [HTML]
+	toolTip: Slide de Imagens [HTML]
+-->
+
+   <!-- inclusão do javascript-->
+   <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+   <script type="text/javascript" src="js/jcarousellite_1.0.1.min.js"></script>
+   <script type="text/javascript" src="js/carrossel.js"></script>
+   
+      <!-- inclusão do CSS-->
+   <link href="css/estilo.css" rel="stylesheet" type="text/css" />
+
+      <div id="carrossel">
+            <ul>
+               <li><img src="images/imagem1.jpg" width="250" height="250" alt="" /></li>
+               <li><img src="images/imagem2.jpg" width="250" height="250" alt="" /></li>
+               <li><img src="images/imagem3.jpg" width="250" height="250" alt="" /></li>
+               <li><img src="images/imagem4.jpg" width="250" height="250" alt="" /></li>
+               <li><img src="images/imagem5.jpg" width="250" height="250" alt="" /></li>
+               <li><img src="images/imagem6.jpg" width="250" height="250" alt="" /></li>
+            </ul>
+      </div>
+      
+      <p>
+         <a href="#" class="prev">Anterior</a>
+		 <a href="#" class="1">1</a>
+		 <a href="#" class="2">2</a>
+		 <a href="#" class="3">3</a>
+		 <a href="#" class="4">4</a>
+		 <a href="#" class="5">5</a>
+		 <a href="#" class="6">6</a>
+         <a href="#" class="next">Próximo</a>
+      </p>

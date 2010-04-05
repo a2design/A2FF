@@ -1,0 +1,24 @@
+/*
+	category: A2
+	name: Video [CSS]
+	toolTip: Video [CSS]
+*/
+
+/*Video
+*********************************************************************************************/
+
+.video p{
+	margin-bottom:10px;
+}
+.video p.description {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#EEEEEE none repeat scroll 0 0;
+	border:1px solid #CCCCCC;
+	color:#666666;
+	font-size:11px;
+	font-weight:bold;
+	padding:5px;
+	width:290px;
+}

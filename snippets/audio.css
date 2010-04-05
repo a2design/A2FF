@@ -1,0 +1,20 @@
+/*
+	category: A2
+	name: Audio [CSS]
+	toolTip: Audio [CSS]
+*/
+
+/*Audio
+*********************************************************************************************/
+
+.audio p{
+	margin-bottom:10px;
+}
+.audio p.description{
+	background:#eee;
+	border:1px solid #ccc;font-size:11px;
+	font-weight:bold;
+	color:#666;
+	padding:5px;
+	width:290px;
+}
