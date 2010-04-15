@@ -23,7 +23,7 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	background: white;
+	background:#001223 url(../img/bg_blue2.jpg) repeat;
 	font-family: Arial, Verdana, Helvetica, Sans-serif;
 	font-size: 62.5%; /* 62.5% = 10px = 1em */
 	line-height: 18px;
@@ -31,14 +31,43 @@ body {
 img {
 	border: 0;
 }
-#global {
+
+#global {width: 760px;margin: 0 auto;}
+
+@font-face {font-family: Frutiger;src: url('../img/Frutiger-BoldCn.ttf');}
+
+
+#page {
 	text-align: left;
 	width: 760px;
-	margin: 10px auto;
+	margin: 0 auto 50px;
 	border: 5px solid #ddd;
 	padding: 20px;
 	background: #fff;
 }
+
+/*Navmain************************************************/
+
+#nav_main {padding:10px;display:block;text-align:center; font-family:Arial;margin:0 auto 25px;width:100%;}
+#nav_main ul {padding:0;margin:0 auto;}
+#nav_main ul li {display:inline;margin:0 10px;font-size:21px;letter-spacing:-1px;}
+#nav_main ul li a {text-decoration:none;font-weight:bold;color:#fff;text-shadow: 1px 1px 1px #000;}
+#nav_main ul li a:hover {border-bottom:2px solid #378EDB;}
+
+p.version {color:#999;font-style:italic;font-weight:bold;}
+
+#logo h1 {
+	font-size:72px;
+	font-family: Frutiger, sans-serif;
+	background:url(../img/logo2.png) no-repeat 85px center;
+	padding:75px 0 50px 75px;
+	letter-spacing:-7px;
+	text-align:center;
+	text-shadow: 2px 2px 2px #000;
+	color:white;
+	text-transform:lowercase;
+}
+
 h1 {
 	font-size: 2.8em;
 	margin: 0 0 20px;
@@ -226,5 +255,24 @@ table strong {
 	display: inline;
 	float: left;
 	cursor:help;
+	background:url(../img/ico/cancel.png) no-repeat left center;
+	padding:3px 0 3px 23px;
 }
+table strong.complete {background-image:url(../img/ico/accept.png);}
+table strong.partial {background-image:url(../img/ico/error.png);}
+
+a.back {
+	display:block;
+	background:url(../img/ico/arrow_up.png) no-repeat left center;
+	width:120px;
+	padding:3px 0 3px 25px;
+	color:#666;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+	margin-bottom:20px;
+}
+
+a.back:hover {text-decoration:underline;}
+
 .qtip-content {font-size:12px !important;}

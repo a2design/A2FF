@@ -1,25 +1,70 @@
 /*
-	category: A2
+	category: A2 Multimidia
 	name: Album de fotos (Galeria) [CSS]
 	toolTip: Album de fotos (Galeria) [CSS]
 */
 
 /*Album de Fotos Galeria
 *********************************************************************************************/
+#slideshow img {
+	border:1px solid #2E0406;
+}
+.image .legend {background:#eee;border:1px solid #ccc;}
+.image .legend {background:#666;}
+.image #slideshow .legend {padding:11px 25px 1px;height:49px;border:1px solid #2E0406;width:250px;}
+.image .legend {margin-top:-6px;padding:12px;font-size:11px;line-height:16px;height:60px;overflow:hidden;}
+.legend p {text-align:left;}
+.image .legend a{text-decoration: none;}
+.image .legend a:hover{text-decoration:underline;}
+.image .legend p {line-height:13px;}
+.image .legend a, .image p.legend {color:white; font-weight:normal;}
+.image .legend p {line-height:13px;}
 
-#slide {
-	height:310px;
-	position:relative;
+
+
+/*slideshow*/
+
+#slideshow {margin-top:25px;}
+
+#slide {position:relative;height:310px;}
+#slideNav span a { 	
+	background-color:black;
+	background-repeat:no-repeat;
+	display:block;
+	width:20px;
+	height:48px;
+	text-indent:-9000px;
+	z-index: 11;
+	position: absolute;
+	top: 250px;
+}
+#slideNav #prev2 {
+	background:transparent url(../img/prev_cinza.gif) repeat scroll center;
+	float:left;
+	margin-left:2px;
+	left: 0;
+}
+#slideNav #next2 {
+	background:transparent url(../img/next_cinza.gif) repeat scroll center;
+	float:right;
+	margin-right:2px;
+	right: 0;
 }
 
-.c {
-	width:302px;
+/*foto*/
+.a, .b, .c, .d {overflow:hidden;}
+.a {width:62px;}
+.b {width:222px;}
+.c {width:302px;}
+.d {width:auto;}
+.image .legend {margin-top:-15px;padding:12px;font-size:11px;line-height:16px;height:60px;overflow:hidden;}
+
+/*imgs etc*/
+.image #slideshow .legend {padding:11px 25px 1px;height:49px;border:1px solid #2E0406;width:260px;}
+.credit  {
+	text-align:right;
+	display:block;
+	color:#999999;
+	font-size:11px;
 }
 
-.a, .b, .c, .d {
-	overflow:hidden;
-}
-
-.left {
-	margin:0 20px 20px 0;
-}

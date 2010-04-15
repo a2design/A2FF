@@ -9,7 +9,7 @@
 	<link rel="alternate" type="application/rss+xml" title="Album de fotos (Galeria) RSS" href="#" />
 
 	<script type="text/javascript" src="../js/jquery.js"></script>
-	<script type="text/javascript" src="../js/jquery.cycle.js ></script>
+	<script type="text/javascript" src="../js/jquery.cycle.js" ></script>
 	<script type="text/javascript">
 		 $(document).ready(function() {
 			$.fn.cycle.defaults.timeout = 7000;
@@ -26,23 +26,38 @@
 
 </head>
 <body id="">
-	<div class="figure album left c">
-		<div id="gallery">
-			<div id="image-desc"></div>
-			<div id="slideshow"></div>
-			<div id="details">
-				<div id="image-title"></div>			
-				<a id="download-link">Download</a>
+<div id="slide" class="figure image left c">
+	<div id="slideshow">
+		<div class="figure">
+			<span class="credit">Milton Michida</span> 
+			<a href=""><img src="../img/modelo02.jpg" alt="Discurso" /></a>
+
+			<div class="legend">
+				<p><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec auctor felis.</a></p>
 			</div>
-			<div id="controls"></div>					
 		</div>
-		<div id="navigation">
-			<ul class="thumbs noscript">
-				<li><a href="../img/modelo02.jpg" title="Crédito 1"><img src="../img/modelo02.jpg" alt="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris vel metus. Nulla ac nisi. Proin quis erat. Vestibulum adipiscing massa ut risus." longdesc="../img/modelo02.jpg" /></a></li>
-				<li><a href="../img/modelo02.jpg" title="Crédito 1"><img src="../img/modelo02.jpg" alt="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris vel metus. Nulla ac nisi. Proin quis erat. Vestibulum adipiscing massa ut risus." longdesc="../img/modelo02.jpg" /></a></li>				
-			</ul>
-		</div>		
+		<div class="figure">
+			<span class="credit">Milton Michida</span> 
+			<a href=""><img src="../img/modelo02.jpg" alt="#" /></a>
+			<div class="legend">
+
+				<p><a href="">Curabitur tincidunt vestibulum quam, eu mattis ante bibendum id. Donec tempor vestibulum venenatis.</a></p>
+			</div>
+		</div>
+		<div class="figure">
+			<span class="credit">Ciete Silvério</span> 
+			<a href=""><img src="../img/modelo02.jpg" alt="Futebol Feminino" /></a>
+			<div class="legend">
+				<p><a href="">Consectetur adipiscing elit. Aenean nec auctor felis, eu mattis ante bibendum id. Donec tempor vestibulum venenatis.</a></p>
+
+			</div>
+		</div>
+	</div>	
+	<div id="slideNav" class="nav">
+		<span><a id="prev2" href="#">Anterior</a></span>
+		<span><a id="next2" href="#">Posterior</a></span>
 	</div>
+</div>
 </body>
 </html>
 

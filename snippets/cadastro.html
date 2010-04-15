@@ -1,14 +1,13 @@
 <!--
-	category: A2
+	category: A2 Formularios
 	name: Cadastro [HTML]
 	toolTip: Cadastro [HTML]
 -->
-
 <h2>Cadastro</h2>
 <p class="subtitulo">Preencha o cadastro abaixo para poder avaliar as informações e comentar os serviçoes prestados.</p>
 <form id="formCadastro" action="#">
 	<fieldset>	
-		<div id="campo01">
+		<div id="campo01" class="linha">
 			<label for="nome">
 				<span>Nome*</span>
 				<input name="nome" id="nome" type="text" class="inputText" value="Digite seu nome" onfocus="if (this.value=='Digite seu nome') this.value=''"/>
@@ -18,7 +17,7 @@
 				<input name="email" id="email" type="text" class="inputText" value="Digite seu e-mail" onfocus="if (this.value=='Digite seu e-mail') this.value=''"/>
 			</label>
 		</div>
-		<div id="campo08">
+		<div id="campo02" class="linha">
 			<label for="senha1">
 				<span>Senha*</span>
 				<input name="nome" id="senha1" type="password" class="inputText" value="Digite sua senha" onfocus="if (this.value=='******') this.value=''"/>
@@ -28,7 +27,7 @@
 				<input name="email" id="senha2" type="password" class="inputText" value="Confirme sua senha" onfocus="if (this.value=='******') this.value=''"/>
 			</label>
 		</div>
-		<div id="campo02">
+		<div id="campo03" class="linha">
 			<label for="pais">
 				<span>País :</span>
 				<input name="pais" id="pais" type="text" class="inputText" value="Digite o país em que vive" onfocus="if (this.value=='Digite o país em que vive') this.value=''"/>
@@ -44,7 +43,7 @@
 			</p>				
 		</div>
 
-		<div id="campo03">
+		<div id="campo04" class="linha">
 			<label for="endereco">
 				<span>Endereço :</span>
 				<input name="endereco" id="endereco" type="text" class="inputText" value="Digite o seu endereço" onfocus="if (this.value=='Digite o seu endereço') this.value=''"/>
@@ -55,7 +54,7 @@
 			</label>
 		</div>
 
-		<div id="campo04">
+		<div id="campo05" class="linha">
 			<label for="complemento">
 				<span>Complemento :</span>
 				<input name="complemento" id="complemento" type="text" class="inputText" value="--" onfocus="if (this.value=='--') this.value=''"/>
@@ -67,7 +66,7 @@
 			</label>
 		</div>
 
-		<div id="campo05">
+		<div id="campo06" class="linha">
 			<label for="state">
 				<span>Estado :</span>					
 				<span id="state">
@@ -114,7 +113,7 @@
 			</label>
 		</div>
 
-		<div id="campo06">
+		<div id="campo07" class="linha">
 			<label for="telefone">
 				<span>Telefone :</span>
 				<input name="ddd" id="ddd_tel" type="text" class="inputText" value="--" onfocus="if (this.value=='--') this.value=''"/>
@@ -126,7 +125,7 @@
 				<input name="cel" id="celular" type="text" class="inputText" value="--" onfocus="if (this.value=='--') this.value=''"/>
 			</label>
 		</div>
-		<div id="campo07">
+		<div id="campo08" class="linha">
 			<input type="checkbox" name="noticias" id="noticias" class="input_check"/>
 			<span>Receber o <a href="#">Informativo SP Notícias</a> por e-mail</span>
 			<label for="enviar">

@@ -1,5 +1,5 @@
 /*
-	category: A2
+	category: A2 Multimidia
 	name: Slide de Imagens [JS]
 	toolTip: Slide de Imagens [JS]
 */

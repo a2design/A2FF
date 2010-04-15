@@ -1,8 +1,18 @@
+/*
+	category: A2 Estrutura
+	name: Template [CSS]
+	toolTip: Template [CSS]
+*/
+
+/*page************************************************/
+
+#page {width:920px;margin:0 auto;}
 
 #container {position:relative;}
 
 #extra {
 	background:#eee;
+	border:1px solid #ccc;
 	width:25%;
 	position:absolute;
 	left:0;
@@ -10,13 +20,14 @@
 }
 
 #content {
-	background:#ccc;
+	background:#fff;
 	width:50%;
 	margin-left:25%;
 }
 
 #sidebar {
-	background:#aaa;
+	background:#eee;
+	border:1px solid #ccc;
 	width:25%;
 	position:absolute;
 	right:0;
@@ -24,3 +35,20 @@
 }
 
 #extra, #content, #sidebar {height:500px;}
+
+/*header***************************************************/
+#header {height:200px;}
+
+/*content***************************************************/
+#content {padding:0 10px;}
+
+/*footer***************************************************/
+#footer {
+	margin-top:10px;
+	text-align:center;
+	clear:both;
+	padding:10px;
+	background:#eee;
+	border:1px solid #ccc;
+	font-size:11px;
+}

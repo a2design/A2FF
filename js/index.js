@@ -1,8 +1,7 @@
 	// Create the tooltips only on document load
-	$(document).ready(function() 
-	{
-  // qtip id para cada th **********************************************************************
-	$("th strong").each(function(index, element){$(element).attr("id", index);});
+	$(document).ready(function() {
+	  // qtip id para cada th **********************************************************************
+		$("th strong").each(function(index, element){$(element).attr("id", index);});
 
 	   // qtip **********************************************************************
 	   $('th strong').qtip(
@@ -26,7 +25,7 @@
 			  }
 		   }
 	   });
+	   
+	   // desativa links com "disable" **********************************************************************	
+		$('a.disable').attr('href','javascript:void(0);');	   
 	});
-	   // qtip fim **********************************************************************	
-
-

@@ -11,7 +11,7 @@
 <body id="">
 
 <div class="figure video">
-	<p class="path"><embed width="300" height="274" type="application/x-shockwave-flash" src="../img/swf/phpFLVPlayback.swf" pluginspage="http://www.adobe.com/go/getflashplayer" flashvars="vfile=%2Fusr%2Fshare%2Fvideo%2Fempty.flv"/></p>
+	<p class="path"><embed width="300" height="274" type="application/x-shockwave-flash" src="../img/swf/phpFLVPlayback.swf" pluginspage="http://www.adobe.com/go/getflashplayer" flashvars="vfile=%2Fimg%2Fswf%2F6.flv"/></p>
 	<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec auctor felis. Mauris quis nibh quis turpis imperdiet consequat.</p>	
 </div>
 

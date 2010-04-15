@@ -12,7 +12,7 @@
 	
 <div class="figure audio">
 	<p class="path">
-		<embed width="300" height="45" type="application/x-shockwave-flash" src="../img/swf/mp3player.swf" pluginspage="http://www.adobe.com/go/getflashplayer" flashvars="mp3url=%2Fusr%2Fshare%2Faudio%2F2247.mp3"/>
+		<embed width="300" height="45" type="application/x-shockwave-flash" src="../img/swf/mp3player.swf" pluginspage="http://www.adobe.com/go/getflashplayer" flashvars="mp3url=%2Fimg%2Fswf%2F4.mp3"/>
 	</p>
 	<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec auctor felis. Mauris quis nibh quis turpis imperdiet consequat.</p>
 </div>
