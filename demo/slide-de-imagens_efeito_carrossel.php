@@ -9,34 +9,13 @@
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />	
 	<link rel="alternate" type="application/rss+xml" title="Slide de Imagens - Efeito Carrossel RSS" href="#" />	
 	
-	<script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
-   	<script type="text/javascript" src="../js/jcarousellite_1.0.1.min.js"></script>
-    <script type="text/javascript" src="../js/carrossel.js"></script>
-    
+	<?php include("../snippets/slide-de-imagens_efeito_carrossel_head.html");?>
+   
 </head>
 <body id="">
 
-      <div id="carrossel">
-            <ul>
-               <li><img src="../img/imagem1.JPG" width="300" height="250" alt="" /></li>
-               <li><img src="../img/imagem2.JPG" width="300" height="250" alt="" /></li>
-               <li><img src="../img/imagem3.JPG" width="300" height="250" alt="" /></li>
-               <li><img src="../img/imagem4.JPG" width="300" height="250" alt="" /></li>
-               <li><img src="../img/imagem5.JPG" width="300" height="250" alt="" /></li>
-               <li><img src="../img/imagem6.JPG" width="300" height="250" alt="" /></li>
-            </ul>
-      </div>
-      
-      <p>
-         <a href="#" class="prev">Anterior</a>
-		 <a href="#" class="1">1</a>
-		 <a href="#" class="2">2</a>
-		 <a href="#" class="3">3</a>
-		 <a href="#" class="4">4</a>
-		 <a href="#" class="5">5</a>
-		 <a href="#" class="6">6</a>
-         <a href="#" class="next">Próximo</a>
-      </p>
+	<?php include("../snippets/slide-de-imagens_efeito_carrossel.html");?>
+
 </body>
 </html>
 

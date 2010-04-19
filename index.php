@@ -71,7 +71,7 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="partial">Página 404</strong></th>
+			<th scope="row"><strong class="complete" title="Uma das versões de página não encontrada.">Página 404</strong></th>
 			<td><a class="enable" 	href="demo/erro404.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/erro404.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/erro404.css">CSS</a></td>
@@ -141,10 +141,10 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="partial">Paginação (Vr.II)</strong></th>
-			<td><a class="disable" 	href="snippets/arquivo.html">Demo</a></td>			
-			<td><a class="enable" 	href="snippets/paginacao_v2.html">HTML</a></td>
-			<td><a class="disable" 	href="snippets/template.css">CSS</a></td>
+			<th scope="row"><strong class="complete">Paginação Lite</strong></th>
+			<td><a class="enable" 	href="demo/paginacao_lite.php">Demo</a></td>			
+			<td><a class="enable" 	href="snippets/paginacao_lite.html">HTML</a></td>
+			<td><a class="enable" 	href="snippets/paginacao_lite.css">CSS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>		
@@ -275,11 +275,11 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="partial" title="Aplicativo para transição de imagens com legenda e thumbnails.">Álbum de fotos (Gallery View)</strong></th>
+			<th scope="row"><strong class="complete" title="Aplicativo para transição de imagens com legenda e thumbnails.">Álbum de fotos (Gallery View)</strong></th>
 			<td><a class="enable" 	href="demo/album-de-fotos_galleryview.php">Demo</a></td>
 			<td><a class="enable" 	href="snippets/album-de-fotos_galleryview.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/album-de-fotos_galleryview.css">CSS</a></td>
-			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
+			<td><a class="enable" 	href="snippets/album-de-fotos_galleryview.js">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>		
 		<tr>
@@ -299,10 +299,18 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="partial" title="Toolbox geralmente aplicado em notícias">Toolbox</strong></th>
+			<th scope="row"><strong class="complete" title="Toolbox geralmente aplicado em notícias">Toolbox</strong></th>
 			<td><a class="enable" 	href="demo/toolbox.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/toolbox.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/toolbox.css">CSS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
+		</tr>
+		<tr>
+			<th scope="row"><strong class="complete" title="Toolbox normalmente usado para aplicar em blog">Blog toolbox</strong></th>
+			<td><a class="enable" 	href="demo/blog-toolbox.php">Demo</a></td>			
+			<td><a class="enable" 	href="snippets/blog-toolbox.html">HTML</a></td>
+			<td><a class="enable" 	href="snippets/blog-toolbox.css">CSS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
@@ -347,19 +355,11 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="partial">Blog toolbox</strong></th>
-			<td><a class="disable" 	href="snippets/arquivo.html">Demo</a></td>			
-			<td><a class="enable" 	href="snippets/blog-toolbox.html">HTML</a></td>
-			<td><a class="disable" 	href="snippets/template.css">CSS</a></td>
-			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
-			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
-		</tr>
-		<tr>
 			<th scope="row"><strong class="complete" title="Menu em abas feito com jQuery">Abas</strong></th>
 			<td><a class="enable" 	href="demo/abas.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/abas.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/abas.css">CSS</a></td>
-			<td><a class="enable" 	href="js/abas.js">JS - </a><a class="enable" href="js/ui-abas.js">JS</a></td>
+			<td><a class="enable" 	href="snippets/abas.js">JS</a></td>
 			<td><a class="disable" 	href="php/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
@@ -367,7 +367,7 @@
 			<td><a class="enable" 	href="demo/slide-de-imagens_efeito_carrossel.php">Demo</a></td>	
 			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.css">CSS</a></td>
-			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.js">JS - </a><a class="enable" href="snippets/slide-de-imagens_efeito_carrossel_v2.js">JS</a></td>
+			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.js">JS</td>
 			<td><a class="disable" 	href="php/homepage.php">PHP</a></td>
 		</tr>
 	</tbody>
@@ -393,18 +393,18 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="partial">Esqueceu a senha?</strong></th>
-			<td><a class="disable" 	href="snippets/arquivo.html">Demo</a></td>			
+			<th scope="row"><strong class="complete">Esqueceu a senha?</strong></th>
+			<td><a class="enable" 	href="demo/esqueceu.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/esqueceu.html">HTML</a></td>
-			<td><a class="disable" 	href="snippets/template.css">CSS</a></td>
+			<td><a class="enable" 	href="snippets/esqueceu.css">CSS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="partial">Enquete</strong></th>
-			<td><a class="disable" 	href="snippets/arquivo.html">Demo</a></td>			
+			<th scope="row"><strong class="complete">Enquete</strong></th>
+			<td><a class="enable" 	href="demo/enquete.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/enquete.html">HTML</a></td>
-			<td><a class="disable" 	href="snippets/template.css">CSS</a></td>
+			<td><a class="enable" 	href="snippets/enquete.css">CSS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
@@ -417,10 +417,10 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="partial">Receber Notícias</strong></th>
-			<td><a class="disable" 	href="snippets/arquivo.html">Demo</a></td>			
+			<th scope="row"><strong class="complete" title="Formulário de Cadastro para receber notícias">Receber Notícias</strong></th>
+			<td><a class="enable" 	href="demo/receber-noticias.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/receber-noticias.html">HTML</a></td>
-			<td><a class="disable" 	href="snippets/template.css">CSS</a></td>
+			<td><a class="enable" 	href="snippets/receber-noticias.css">CSS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
@@ -457,7 +457,7 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="complete" title="#">Comentar II</strong></th>
+			<th scope="row"><strong class="partial" title="#">Comentar II</strong></th>
 			<td><a class="disable" 	href="demo/comentar.php">Demo</a></td>			
 			<td><a class="disable" 	href="snippets/comentar.html">HTML</a></td>
 			<td><a class="disable" 	href="snippets/comentar.css">CSS</a></td>
@@ -466,6 +466,7 @@
 		</tr>
 	</tbody>
 </table>
+
 <a class="back" href="#logo">Voltar ao topo</a>
 </div>
 </div>

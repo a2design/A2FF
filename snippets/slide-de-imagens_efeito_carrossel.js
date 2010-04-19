@@ -3,6 +3,7 @@
 	name: Slide de Imagens [JS]
 	toolTip: Slide de Imagens [JS]
 */
+
 $(function(){
       $("#carrossel").jCarouselLite({
             btnPrev : '.prev',
@@ -13,3 +14,4 @@ $(function(){
             visible : 1
       })
 })
+
