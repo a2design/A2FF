@@ -1,0 +1,11 @@
+/*
+	category: A2 Multimidia
+	name: Twitter [CSS]
+	toolTip: Twitter [CSS]
+*/
+
+/*Twitter*********************************************/
+#twitter a {text-decoration:none;color:#666;}
+#twitter a:hover {text-decoration:underline;}
+
+#twitter .tweet {display:block;padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #eee;}

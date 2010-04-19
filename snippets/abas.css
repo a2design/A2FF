@@ -1,0 +1,46 @@
+/*
+	category: A2 Multimidia
+	name: Abas [CSS]
+	toolTip: Abas [CSS]
+*/
+
+/*Albas*/
+
+ul#nav-aba {
+	height:33px;
+	list-style:none outside none;
+	margin:0;
+	padding:0;
+}
+ 
+ul#nav-aba li {
+	display:inline;
+	line-height:1;
+	margin:0;
+	padding:0;
+}
+.aba {
+	display:none;
+}
+
+ul#nav-aba li a {
+	color:#405C5C;
+	float:left;
+	font-size:0.8em;
+	padding:10px;
+	text-decoration:none;
+}
+ul#nav-aba li.item01 a, 
+ul#nav-aba li.item02 a,
+ul#nav-aba li.item03 a  {
+	background:none repeat scroll 0 0 #DDE4D6;
+}
+ul#nav-aba li.item01 a.tab-current, 
+ul#nav-aba li.item02 a.tab-current, 
+ul#nav-aba li.item03 a.tab-current {
+	background:none repeat scroll 0 0 #809999;
+}
+#tabs .aba{
+	background:none repeat scroll 0 0 #DDE4D6;
+}
+#tabs .aba p{margin:0;}

@@ -1,0 +1,15 @@
+/*
+	category: A2 Estrutura
+	name: Logo [CSS]
+	toolTip: Logo [CSS]
+*/
+
+/*Login************************************************/
+
+#logo h1 a {
+	background:#eee;
+	display:block;
+	text-indent:-9000px;
+	width:250px;
+	height:100px;
+}

@@ -1,0 +1,43 @@
+/*
+	category: A2 Formularios
+	name: Fale Conosco [CSS]
+	toolTip: Fale Conosco [CSS]
+*/
+
+/*Fale Conosco
+*********************************************************************************************/
+#fale_conosco{width:500px; margin:0 auto;}
+#fale_conosco label {display:block;	margin-bottom:5px;}
+#fale_conosco label span {display:block;font-size:11px;font-weight:bold;}
+#fale_conosco label .input_text, 
+#fale_conosco label textarea {border:1px solid #CCCCCC;color:#666666;font-size:11px;font-weight:bold;padding:3px;width:70%;}
+#fale_conosco label textarea {height:150px;width:490px;}
+#fale_conosco .block {text-align:right;}
+
+#fale_conosco .input_submit {
+	-moz-border-radius:3px 3px 3px 3px;
+	background:#666;
+	border:0 none;
+	color:white;
+	font-size:11px;
+	font-weight:bold;
+	margin-bottom:5px;
+	padding:3px 10px;
+	text-transform:uppercase;
+}
+
+.ui-widget  {font-family:Arial,Helvetica,sans-serif;font-size:11px;margin:10px 0;}
+.ui-widget .ui-corner-all {padding:12px;}
+.ui-corner-all {-moz-border-radius:5px 5px 5px 5px;}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {
+	background:url("../img/ui-bg_flat_55_FFE000_40x100.png") repeat-x scroll 50% 50% #FFE000;
+	border:1px solid #FFE000;
+	color:#363636;
+}
+.ui-state-error, .ui-widget-content .ui-state-error {
+	background:url("../img/ui-bg_flat_100_cc0000_40x100.png") repeat-x scroll 50% 50% #CC0000;
+	border:1px solid #CC0000;
+	color:#FFFFFF;
+}
+.ui-green {background:none repeat scroll 0 0 green ;border:1px solid green ;}
