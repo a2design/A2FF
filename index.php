@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
 <head>
-	<title>A2 Framework</title>
+	<title>A2 Front-end Framework</title>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/qtip.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>	
@@ -10,7 +10,7 @@
 <body>
 <div id="global">
 <div id="logo">
-	<h1 accesskey="1">Framework</h1>
+	<h1 accesskey="1">Front-end Framework</h1>
 </div>
 <div id="nav_main">
 	<ul>
@@ -22,7 +22,7 @@
 	</ul>
 </div>
 <div id="page">
-<p class="version">Versão 0.1</p>
+<p class="version">Revisão 00</p>
 <!--p class="date">
 <?
 	$file = $_SERVER["SCRIPT_NAME"];

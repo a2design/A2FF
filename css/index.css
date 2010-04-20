@@ -56,16 +56,19 @@ img {
 
 p.version {color:#999;font-style:italic;font-weight:bold;}
 
+#logo {text-align:center;width:100%;padding:50px 0;}
+
 #logo h1 {
 	font-size:72px;
 	font-family: Frutiger, sans-serif;
-	background:url(../img/logo2.png) no-repeat 85px center;
-	padding:75px 0 50px 75px;
+	background:url(../img/logo2.png) no-repeat left center;
 	letter-spacing:-7px;
-	text-align:center;
 	text-shadow: 2px 2px 2px #000;
 	color:white;
 	text-transform:lowercase;
+	margin:0;
+	display:inline;
+	padding:10px 0 10px 115px;
 }
 
 h1 {

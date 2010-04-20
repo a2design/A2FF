@@ -5,26 +5,13 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<meta name="author" content="A2 Comunicação" />	
 	<link rel="stylesheet" type="text/css" href="../snippets/twitter.css" media="all" />
-	<!--Twitter <head>-->    
-	<script type="text/javascript" src="../js/jquery.js"></script>	
-	<script type="text/javascript" src="../js/twitter.js"></script>
-	<script type="text/javascript">
-	$(document).ready(function() {
-		$('#timeline').tweets({
-			tweets:4,
-			username: "smashingmag"
-		});
-	});
-	</script>
+	
+	<?php include("../snippets/twitter_head.html");?>		
 </head>
-<body id="teste">
-<div id="twitter" class="section">
-	<h3><a href="javascript:void(0);">Twitter</a></h3>
-	<div id="timeline">
+<body id="teste">	
 
-	</div>
-	<p class="more"><a href="javascript:void(0);">Siga-me no Twitter »</a></p>
-</div>
+<?php include("../snippets/twitter.html");?>
+
 </body>
 </html>
 

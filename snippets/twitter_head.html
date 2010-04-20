@@ -4,14 +4,32 @@
 	toolTip: Twitter (Head) [HTML]
 -->
 
-<!--Twitter <head>-->    
-<script type="text/javascript" src="js/twitter.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-	$('#timeline').tweets({
-		tweets:4,
-		username: "a2comunicacao"
-	});
-});
-</script>
+	<!--Twitter <head>-->    
+	<script type="text/javascript" src="../js/jquery.js"></script>	
+	<script type="text/javascript" src="../js/twitter.js"></script>
+	<script type="text/javascript" charset="utf-8">	
+		$(document).ready(function() {
+			$("#thumbs a").click(function () {				
+				name = "#" + $(this).attr("id").slice(0,-4);
+				$(name).fadeIn("fast");
+				return false;
+			});
+			$(".tela").click(function () {
+				$(this).parent().fadeOut("fast");
+				return false;
+			});	
+			$('a[href^="http://"]').attr({target: "_blank"});
+		
+			
+			getTwitters('tweet', { 
+				id: 'a2comunicacao', 
+				count: 4, 
+				enableLinks: true, 
+				ignoreReplies: true, 
+				clearContents: true,
+				template: "%text% <a href='http://twitter.com/%user_screen_name%/statuses/%id%/'><\/a>"
+			});						
+		});	
+	
+	</script>	
 
