@@ -32,8 +32,8 @@
 ?>
 </p-->
 
-<h2>Configurando o Aptana</h2>
-<p class="description">Estes arquivos estão formatados para serem usados com o <strong>Aptana</strong>. Para ativação, <a href="http://wiki.a2/index.php?title=Snippets" target="_blank">clique aqui</a>.</p>
+<h2 id="trac"><a target="_blank" href="http://trac.framework-design.a2">Trac »</a></h2>
+
 <h2 id="mod_estr"><a title="#" accesskey="2">Módulos estruturais</a></h2>
 <p class="description">Módulos que organizam a estrutura geral da página.</p>
 <table summary="#">

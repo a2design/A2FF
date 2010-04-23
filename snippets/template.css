@@ -23,6 +23,9 @@
 	background:#fff;
 	width:50%;
 	margin-left:25%;
+	min-height: 500px;
+	_height: auto !important;
+	height: 500px;
 }
 
 #sidebar {

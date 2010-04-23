@@ -36,6 +36,8 @@ img {
 
 @font-face {font-family: Frutiger;src: url('../img/Frutiger-BoldCn.ttf');}
 
+h2#trac a {color:#666;text-decoration:none;}
+h2#trac a:hover {text-decoration:underline;}
 
 #page {
 	text-align: left;
