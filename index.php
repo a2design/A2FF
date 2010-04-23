@@ -63,15 +63,15 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="partial">Template (mobile)</strong></th>
-			<td><a class="disable" 	href="snippets/arquivo.html">Demo</a></td>			
+			<th scope="row"><strong class="complete" title="Estrutura básica para página versão mobile com reset.">Template (mobile)</strong></th>
+			<td><a class="enable" 	href="demo/template_mobile.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/template_mobile.html">HTML</a></td>
-			<td><a class="disable" 	href="snippets/template.css">CSS</a></td>
+			<td><a class="enable" 	href="snippets/template_mobile.css">CSS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="complete" title="Uma das versões de página não encontrada.">Página 404</strong></th>
+			<th scope="row"><strong class="complete" title="Estrutura básica para página não encontrada.">Página 404</strong></th>
 			<td><a class="enable" 	href="demo/erro404.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/erro404.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/erro404.css">CSS</a></td>
@@ -87,8 +87,8 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="partial">CSS de impressão</strong></th>
-			<td><a class="disable" 	href="snippets/arquivo.html">Demo</a></td>			
+			<th scope="row"><strong class="complete" title="Estrutura básica para página de impressão baseado nos módulos Template e Amostras.">CSS de impressão</strong></th>
+			<td><a class="enable" 	href="demo/print.php">Demo</a></td>			
 			<td><a class="disable" 	href="snippets/lista_noticias.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/print.css">CSS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>

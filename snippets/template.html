@@ -3,7 +3,7 @@
 	name: Template [HTML]
 	toolTip: Template [HTML]
 	prompt(titulo): Titulo da pagina
-	prompt(css): Caminho absoluto para e nome do arquivo CSS
+	prompt(css): nome do arquivo CSS
 	prompt(body-id): Id do <body>
 -->
 
@@ -14,7 +14,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<meta name="author" content="A2 Comunicação" />
 	<link rel="stylesheet" type="text/css" href="snippets/reset.css" media="all" />	
-	<link rel="stylesheet" type="text/css" href="${css}" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/${css}" media="all" />
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />	
 	<link rel="alternate" type="application/rss+xml" title="${titulo} RSS" href="#" />	
 </head>
