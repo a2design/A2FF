@@ -379,7 +379,7 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="partial" title="filtro">Quicksand</strong></th>
+			<th scope="row"><strong class="complete" title="filtro">Quicksand</strong></th>
 			<td><a class="enable" 	href="demo/quicksand.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/quicksand.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/quicksand.css">CSS</a></td>
