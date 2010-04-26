@@ -11,7 +11,7 @@
 <body id="error" class="index">
 <div id="page">
 	<div class="aside">
-		<div id="logosp">
+		<div id="logo">
 			<a href="/index.php" title="#"><img src="../img/modelo05.jpg" alt="Logotipo do FUSSESP" /></a>
 		</div>		
 	</div>
@@ -30,9 +30,6 @@
 		<span><a href="/">« Voltar para a página inicial</a></span>		
 	</div>
 </div>
-</body>
-
-
 </body>
 </html>
 

@@ -150,9 +150,9 @@
 		</tr>		
 		<tr>
 			<th scope="row"><strong class="partial">Submenu</strong></th>
-			<td><a class="disable" 	href="snippets/arquivo.html">Demo</a></td>			
+			<td><a class="enable" 	href="demo/submenu.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/submenu.html">HTML</a></td>
-			<td><a class="disable" 	href="snippets/template.css">CSS</a></td>
+			<td><a class="enable" 	href="snippets/submenu.css">CSS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>		
@@ -188,14 +188,6 @@
 			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr-->	
-		<tr>
-			<th scope="row"><strong class="complete" title="Menu bubbleup com plugin jQuery">Menu BubbleUp</strong></th>
-			<td><a class="enable" 	href="demo/menu_bubbleup.php">Demo</a></td>			
-			<td><a class="enable" 	href="snippets/menu_bubbleup.html">HTML</a></td>
-			<td><a class="enable" 	href="snippets/menu_bubbleup.css">CSS</a></td>
-			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
-			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
-		</tr>		
 	</tbody>
 </table>
 <a class="back" href="#logo">Voltar ao topo</a>
@@ -378,6 +370,22 @@
 			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.js">JS</td>
 			<td><a class="disable" 	href="php/homepage.php">PHP</a></td>
 		</tr>
+		<tr>
+			<th scope="row"><strong class="complete" title="Menu bubbleup com plugin jQuery">Menu BubbleUp</strong></th>
+			<td><a class="enable" 	href="demo/menu_bubbleup.php">Demo</a></td>			
+			<td><a class="enable" 	href="snippets/menu_bubbleup.html">HTML</a></td>
+			<td><a class="enable" 	href="snippets/menu_bubbleup.css">CSS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
+		</tr>
+		<tr>
+			<th scope="row"><strong class="partial" title="filtro">Quicksand</strong></th>
+			<td><a class="enable" 	href="demo/quicksand.php">Demo</a></td>			
+			<td><a class="enable" 	href="snippets/quicksand.html">HTML</a></td>
+			<td><a class="enable" 	href="snippets/quicksand.css">CSS</a></td>
+			<td><a class="disable" 	href="snippets/quicksand.js">JS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
+		</tr>			
 	</tbody>
 </table>
 <a class="back" href="#logo">Voltar ao topo</a>

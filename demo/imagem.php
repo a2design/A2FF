@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="../snippets/imagem.css" type="text/css" media="screen" charset="utf-8" />
 </head>
 <body id="teste">
-<div class="figure image">
+<div class="figure single-image">
 	<p class="credit">Crédito</p>
 	<img src="../img/modelo02.jpg" alt="#" />
 	<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec auctor felis. Mauris quis nibh quis turpis imperdiet consequat.</p>

@@ -10,19 +10,17 @@
 	height:335px;
 	margin:0 auto;
 	width:500px;
+	padding:10px 0;	
 }
 
-#page {
-	margin:0 auto;
-	padding:10px 0;
-	width:940px;
-}
+#error #logo img {border:none;}
+
 #error #page .aside {
 	float:left;
 	padding:5px 5px 5px 5px;
 	width:200px;
 }
-#error.index #page .aside #logosp {
+#error.index #page .aside #logo {
 	margin-top:65px;
 }
 #error #page .section {
@@ -31,6 +29,8 @@
 	width:250px;
 }
 
-.frame {
-	line-height:1.6em;
-}
+#error #page .section span a {color:#666;text-decoration:none;}
+#error #page .section span a:hover {text-decoration:underline;}
+
+#error #page .section #formSearch {margin-bottom:20px;}
+#error #page .section p.title, #error #page .section h2, #error #page .section p.description {margin:0 0 10px;padding:0;}

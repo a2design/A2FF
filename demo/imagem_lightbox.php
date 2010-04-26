@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="../js/lightbox/jquery.lightbox.css" type="text/css" media="screen" charset="utf-8" />
 </head>
 <body id="teste">
-<div class="figure image">
+<div class="figure single-image">
 	<p class="credit">Crédito</p>
 	<a class="zoom" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec auctor felis. Mauris quis nibh quis turpis imperdiet consequat." href="../img/modelo02.jpg">
 	<img src="../img/modelo02.jpg" alt="#" />
