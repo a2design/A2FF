@@ -187,7 +187,15 @@
 			<td><a class="enable" 	href="snippets/template.css">CSS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
-		</tr-->		
+		</tr-->	
+		<tr>
+			<th scope="row"><strong class="complete" title="Menu bubbleup com plugin jQuery">Menu BubbleUp</strong></th>
+			<td><a class="enable" 	href="demo/menu_bubbleup.php">Demo</a></td>			
+			<td><a class="enable" 	href="snippets/menu_bubbleup.html">HTML</a></td>
+			<td><a class="enable" 	href="snippets/menu_bubbleup.css">CSS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
+		</tr>		
 	</tbody>
 </table>
 <a class="back" href="#logo">Voltar ao topo</a>
@@ -456,14 +464,14 @@
 			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
-		<tr>
+<!--		<tr>
 			<th scope="row"><strong class="partial" title="#">Comentar II</strong></th>
 			<td><a class="disable" 	href="demo/comentar.php">Demo</a></td>			
 			<td><a class="disable" 	href="snippets/comentar.html">HTML</a></td>
 			<td><a class="disable" 	href="snippets/comentar.css">CSS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
-		</tr>
+		</tr>-->
 	</tbody>
 </table>
 
