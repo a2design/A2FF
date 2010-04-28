@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
 <head>
 	<title>A2 Front-end Framework</title>
-	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-1.2.6.js"></script>
 	<script type="text/javascript" src="js/qtip.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>	
 	<link rel="stylesheet" type="text/css" href="css/index.css" media="all"/>
@@ -22,7 +22,7 @@
 	</ul>
 </div>
 <div id="page">
-<p class="version">Versão pre-Alpha / Revisão 00 / jQuery 1.4.2 / jQuery UI 1.8</p>
+<p class="version">Versão pre-Alpha / Revisão 01 / jQuery 1.4.2 / jQuery UI 1.8</p>
 <!--p class="date">
 <?
 	$file = $_SERVER["SCRIPT_NAME"];
@@ -33,7 +33,7 @@
 </p-->
 
 <h2 id="trac"><a target="_blank" href="http://trac.framework-design.a2">Trac »</a></h2>
-
+<p style="color:#666;font-weight:bold;">Passe o mouse sobre o nome para ver a descrição do módulo .</p>
 <h2 id="mod_estr"><a title="#">Módulos estruturais</a></h2>
 <p class="description">Módulos que organizam a estrutura geral da página.</p>
 <table summary="#">
@@ -55,7 +55,7 @@
 			<td><a class="disable" 	href="php/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="complete" title="Nome do site com logotipo.">Logo</strong></th>
+			<th scope="row"><strong class="partial" title="Nome do site com logotipo. Falta inserir prompt com nome do título.">Logo</strong></th>
 			<td><a class="enable" 	href="demo/logo.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/logo.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/logo.css">CSS</a></td>
@@ -227,7 +227,7 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="partial" title="Player de vídeo.">Vídeo</strong></th>
+			<th scope="row"><strong class="partial" title="Player de vídeo. Os controles não estão aparecendo.">Vídeo</strong></th>
 			<td><a class="enable" 	href="demo/video.php">Demo</a></td>
 			<td><a class="enable" 	href="snippets/video.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/video.css">CSS</a></td>
@@ -347,7 +347,7 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="complete" title="filtro">Quicksand</strong></th>
+			<th scope="row"><strong class="partial" title="Filtro de elementos sem suporte a Cross-browser.">Quicksand</strong></th>
 			<td><a class="enable" 	href="demo/quicksand.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/quicksand.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/quicksand.css">CSS</a></td>
@@ -385,7 +385,7 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="complete">Enquete</strong></th>
+			<th scope="row"><strong class="partial" title="Formulário para enquetes. Falta código do resultado da enquete.">Enquete</strong></th>
 			<td><a class="enable" 	href="demo/enquete.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/enquete.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/enquete.css">CSS</a></td>
@@ -393,7 +393,7 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="complete">Fale Conosco</strong></th>
+			<th scope="row"><strong class="complete" title="Formulário de contato.">Fale Conosco</strong></th>
 			<td><a class="enable" 	href="demo/fale-conosco.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/fale-conosco.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/fale-conosco.css">CSS</a></td>
@@ -426,7 +426,7 @@
 		</tr>
 
 		<tr>
-			<th scope="row"><strong class="complete">Botões (a la Google)</strong></th>
+			<th scope="row"><strong class="partial" title="Botões para formulário no estilo do Gmail. Não há suporte para o IE, e pequenos defeitos no Opera. ">Botões (a la Google)</strong></th>
 			<td><a class="enable" 	href="demo/botao_google.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/botao_google.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/botao_google.css">CSS</a></td>
