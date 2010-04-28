@@ -1,0 +1,70 @@
+/*
+	category: A2 Multimidia
+	name: Lista de Albuns [CSS]
+	toolTip: Lista de Albuns [CSS]
+*/
+
+/*Lista de Albuns
+******************************************************************/
+.entries{
+	margin:0 auto;
+	width:900px;
+}
+/*Span*/
+.entries ul li.entry span.date {
+	background-color:#EEEEEE;
+	border-right:5px solid #CCCCCC;
+	color:#666666;
+	display:block;
+	float:left;
+	font-size:0.9em;
+	font-weight:bold;
+	margin-bottom:0;
+	margin-right:10px;
+	padding:5px 0;
+	text-align:center;
+	width:55px;
+	color:#000000;
+}
+
+/*H3*/
+.headlines h3 {
+	font-size:1.2em;
+	margin:5px 0 15px 70px;
+	letter-spacing:-1px;
+	line-height:1.1em;
+	margin:0 0 15px;
+}
+.headlines h3 a{text-decoration:none; color:#000;}
+
+.headlines h3 a:hover{text-decoration:underline;}
+
+/*P*/
+.entries ul li.entry p.description {
+	font-size:1em;
+	line-height:1.4em;
+	margin-left:70px;
+}
+
+/*DIV Figure*/
+.entries ul div.figure {
+	margin-bottom:0;
+}
+
+div.figure.right {
+	margin-left:20px;
+	margin-right:-80px;
+	float:right;
+}
+
+.entries ul li.entry {
+	float:left;
+	margin-bottom:10px;
+	width:100%;
+	list-style:none;
+}
+
+
+
+
+

@@ -1,0 +1,43 @@
+<!--
+	category: A2 Formularios
+	name: Fale Conosco [HTML]
+	toolTip: Fale Conosco [HTML]
+-->
+
+<div id="fale_conosco">
+	<div class="ui-widget">
+			<div class="ui-state-highlight ui-corner-all"> 
+				<p><span class="ui-icon ui-icon-info"></span>
+				<strong>Aviso</strong> Lorem ipsum dolor si amet.</p>
+			</div>
+	</div>
+	<div class="ui-widget">
+		<div class="ui-state-error ui-corner-all"> 
+			<p><span class="ui-icon ui-icon-alert"></span> 
+			<strong>Alerta</strong> Lorem ipsum dolor si amet.</p>
+		</div>
+	</div>
+	<div class="ui-widget">
+		<div class="ui-state-error ui-corner-all ui-green"> 
+			<p><span class="ui-icon ui-icon-check"></span> 
+			<strong>Sucesso</strong> Lorem ipsum dolor si amet.</p>
+		</div>
+	</div>			
+	<form action="/sis/fale.php" method="post">
+		<label for="fl1" id="fl1">
+			<span>Nome</span>
+			<input type="text" class="input_text" name="formContatoNome" />
+		</label>
+		<label for="fl2" id="fl2" >
+			<span>E-mail</span>
+			<input type="text" class="input_text" name="formContatoEmail"/>
+		</label>
+		<label for="fl3" id="fl3">
+			<span>Mensagem</span>
+			<textarea name="formContatoMensagem" ></textarea>
+		</label>
+		<div class="block">
+			<input type="submit" class="input_submit" value="Enviar" />
+		</div>				
+	</form>
+</div>	

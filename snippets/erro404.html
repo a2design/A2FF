@@ -1,0 +1,28 @@
+<!--
+	category: A2 Estrutura
+	name: 404 [HTML]
+	toolTip: 404 [HTML]
+-->
+
+<body id="error" class="index">
+<div id="page">
+	<div class="aside">
+		<div id="logo">
+			<a href="/index.php" title=""><img src="../img/modelo05.jpg" alt="Logotipo do FUSSESP" /></a>
+		</div>		
+	</div>
+	<div class="frame section">
+		<p class="title">Erro 404</p>
+
+		<h2>Página não encontrada</h2>
+		<p class="description">Sua solicitação não pode ser completada. Provavelmente a página solicitada não existe ou foi movida.</p>
+		<form id="formSearch" method="get" action="/sis/pesquisa.php">
+			<label for="formSearch_input-text">
+				<input name="q" id="formSearch_input-text" type="text" class="inputText" value="Digite sua busca..." onfocus="if (this.value=='Digite sua busca...') this.value=''" />
+			</label>
+			<input type="submit" class="inputSubmit" id="formSearch_input-submit" value="Buscar" />
+		</form>
+		<span><a href="/">« Voltar para a página inicial</a></span>		
+	</div>
+</div>
+</body>

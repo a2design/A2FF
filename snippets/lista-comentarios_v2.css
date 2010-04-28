@@ -1,0 +1,52 @@
+/*
+	category: A2 Multimidia
+	name: Lista de Comentarios II [CSS]
+	toolTip: Lista de Comentarios II [CSS]
+*/
+
+/*Lista de Comentários II*/
+/* Comentários */
+
+
+#comentarios ol li {
+	border-top:1px solid #CCCCCC;
+	color:#999999;
+	font-size:20px;
+	font-style:italic;
+	font-weight:bold;
+	margin-bottom:0;
+	margin-left:30px;
+	padding:15px 0;
+}
+#comentarios ol li div.info h4 {
+	background:none repeat scroll 0 0 #F5F5F5;
+	border-left:5px solid #CCCCCC;
+	color:#333333;
+	font-size:12px;
+	margin:0 0 10px;
+	padding:5px 0 5px 10px;
+	letter-spacing:0.1px;
+}
+
+#comentarios .comment p.description {
+	font-size:11px;
+	font-style:normal;
+	font-weight:normal;
+	margin-bottom:10px;
+	margin-top:0;
+}
+#comentarios ol li div.info span {
+	color:#CC3333;
+	font-size:10px;
+	margin:0;
+}
+#comentarios ol li div.info span.location {
+	color:#CC3333;
+}
+#comentarios ol li div.info span.date {
+	color:#CC3333;
+	display:block;
+}
+#comentarios{display:table; margin-bottom:30px;}
+#comentarios h3.comentarios span.date{display:inherit; background-color:#999; color:#FFF; height:30px; padding:2px 5px; line-height:30px;}
+#comentarios hr{border-bottom: 2px solid #666; margin-bottom:15px;}

@@ -1,0 +1,33 @@
+/*
+	category: A2 Formularios
+	name: Comentar [CSS]
+	toolTip: Comentar [CSS]
+*/
+
+/*Comentar*/
+#comentarios{font-family:tahoma; font-size:14px;}
+#comentarios h3 {
+	color:#666666;
+	font-size:1.2em;
+	letter-spacing:-1px;
+	line-height:20px;
+	margin-bottom:20px;
+}
+#comentarios p {
+	font-size:1em;
+	line-height:18px;
+	margin-bottom:20px;
+}
+#comentarios div.col1, 
+#comentarios div.col2, 
+#comentarios div.col3 {float:left; border-right:2px dotted #999; width:152px; height:195px; padding: 0 10px; line-height:30px;position:relative;margin-bottom:10px;}
+
+#comentarios div.col3{border:none;}
+
+#comentarios div.col1 p.action a{background:url(../img/box_login.png) no-repeat; width:153px}
+#comentarios div.col2 p.action a{background:url(../img/box_cadastrar.png) no-repeat; width:156px}
+#comentarios div.col3 p.action a{background:url(../img/box_atualizar.png) no-repeat; width:154px}
+
+#comentarios div.col1 p.action a,
+#comentarios div.col2 p.action a,
+#comentarios div.col3 p.action a {height:27px; display:block; font-size:12px; font-weight:bold; color:#666; text-align:center; padding-top:10px;position:absolute;bottom:0;}

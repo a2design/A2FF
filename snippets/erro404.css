@@ -1,0 +1,36 @@
+/*
+	category: A2 Estrutura
+	name: 404 [CSS]
+	toolTip: 404 [CSS]
+*/
+
+#error #page {
+	background:url("../img/bg_page.png") repeat-x scroll center top white;
+	border:1px solid #CCCCCC;
+	height:335px;
+	margin:0 auto;
+	width:500px;
+	padding:10px 0;	
+}
+
+#error #logo img {border:none;}
+
+#error #page .aside {
+	float:left;
+	padding:5px 5px 5px 5px;
+	width:200px;
+}
+#error.index #page .aside #logo {
+	margin-top:65px;
+}
+#error #page .section {
+	float:left;
+	padding:20px;
+	width:250px;
+}
+
+#error #page .section span a {color:#666;text-decoration:none;}
+#error #page .section span a:hover {text-decoration:underline;}
+
+#error #page .section #formSearch {margin-bottom:20px;}
+#error #page .section p.title, #error #page .section h2, #error #page .section p.description {margin:0 0 10px;padding:0;}

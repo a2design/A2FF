@@ -1,0 +1,30 @@
+/*
+	category: A2 Formularios
+	name: Esqueceu a senha  [CSS]
+	toolTip: Esqueceu a senha [CSS]
+*/
+
+/*Esqueceu a senha?
+ * ******************************************/
+.text-entry .description{font-style:italic;}
+
+form#fale_conosco {
+	background-color:#F5F5F5;
+	border:1px solid #CCCCCC;
+
+	padding:10px;
+	text-align:left;
+	width:220px;
+}
+
+.input_submit {
+	display:block;
+	float:right;
+	background:#CCC;
+	border:1px solid #999;
+	cursor:pointer;
+	height:24px;
+	line-height:0;
+	width:50px;
+	color:#FFF;	
+}

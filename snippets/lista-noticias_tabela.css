@@ -1,0 +1,44 @@
+/*
+	category: A2 Multimidia
+	name: Lista de noticias (Tabela) [CSS]
+	toolTip: Lista de noticias (Tabela) [CSS]
+*/
+
+/**ultimas noticias**/
+
+#news_updates table {border-collapse:collapse;}
+
+#news_updates .entry td {padding:5px;border-bottom:1px solid #ccc;}
+
+#news_updates .entry p.category {font-size:11px;font-weight:bold;margin:0;}
+#news_updates .entry h3 {margin:0;}
+
+#news_updates .entry_midia li {
+	display:block;
+	width:16px;
+	height:16px;
+	float:left;
+	background:url(../img/world.png) no-repeat center center;
+	text-indent:-9000px;
+	margin-left:5px;
+}
+#news_updates .entry_midia li.audio {background-image:url(../img/ico/sound.png);}
+#news_updates .entry_midia li.video {background-image:url(../img/ico/film.png);}
+#news_updates .entry_midia li.foto {background-image:url(../img/ico/picture.png);}
+#news_updates .entry_midia li.file {background-image:url(../img/ico/page_white.png);}
+
+#news_updates .entry .date .day {font-size:18px;}
+
+#news_updates .entry .date {
+	color:#333;
+	font-size:11px;	
+	float:left;
+	font-weight:bold;
+	line-height:12px;
+	text-align:center;
+	text-transform:uppercase;
+	width:26px;
+}
+
+#news_updates .entry p.category a, #news_updates .entry h3 a {color:#666;text-decoration:none;}
+#news_updates .entry p.category a:hover, #news_updates .entry h3 a:hover {text-decoration:underline;}

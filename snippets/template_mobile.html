@@ -1,0 +1,27 @@
+<!--
+	category: A2 Estrutura
+	name: Template (Mobile) [HTML]
+	toolTip: Template (Mobile) [HTML]
+	prompt(titulo): Titulo da pagina
+	prompt(css): nome do arquivo CSS
+	prompt(body-id): Id do <body>
+-->
+
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+	<title>${titulo}</title>	
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta name="author" content="A2 Comunicação" />	
+	<link rel="stylesheet" type="text/css" href="css/${css}" media="all" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />	
+	<link rel="alternate" type="application/rss+xml" title="${titulo} RSS" href="#" />	
+</head>
+<body>
+<div id="page">
+	<div id="header">#header</div>
+	<div id="content">#content</div>
+	<div id="footer">#footer</div>
+</div>
+</body>
+</html>

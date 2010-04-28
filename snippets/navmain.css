@@ -1,0 +1,33 @@
+/*
+	category: A2 Nav
+	name: Navmain [CSS]
+	toolTip: Navmain [CSS]
+*/
+
+/*Navmain*******************************************************/
+
+#nav_main {padding:10px;background:#eee;border:1px solid #ccc;display:block;text-align:center;font-family:"Arial", sans-serif;}
+#nav_main ul {margin:0;padding:0;list-style:none;}
+#nav_main ul li {
+	display:inline;
+	margin:0 10px;
+	font-size:16px;
+	position:relative;
+}
+#nav_main ul li a {text-decoration:none;font-weight:bold;color:#666;}
+#nav_main ul li a:hover {text-decoration:underline;}
+
+/*Submenu*******************************************************/
+
+#nav_main ul li ul {
+	position:absolute;
+	background:#eee;
+	left:0;
+	top:19px;
+	display:block;
+	margin-top:10px;
+	border:1px solid #ccc;
+	border-top:1px solid #eee;	
+}
+
+#nav_main ul li ul li {display:block;padding:5px 10px;border-bottom:1px solid #ccc;}

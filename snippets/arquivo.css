@@ -1,0 +1,19 @@
+/*
+	category: A2 Multimidia
+	name: Arquivo [CSS]
+	toolTip: Arquivo [CSS]
+*/
+
+/*Arquivo
+*********************************************************************************************/
+
+.file {background:#eee;border:1px solid #ccc;padding:5px;width:300px;}
+.file a {
+	background:url(../img/ico/page_white_put.png) no-repeat left center;
+	font-size:11px;
+	color:#666;
+	text-decoration:none;
+	font-weight:bold;
+	padding:3px 0 3px 22px;
+}
+.file a:hover {text-decoration:underline;}
