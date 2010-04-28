@@ -55,7 +55,7 @@
 			<td><a class="disable" 	href="php/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="partial" title="Nome do site com logotipo. Falta inserir prompt com nome do título.">Logo</strong></th>
+			<th scope="row"><strong class="complete" title="Nome do site com logotipo.">Logo</strong></th>
 			<td><a class="enable" 	href="demo/logo.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/logo.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/logo.css">CSS</a></td>
@@ -227,7 +227,7 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="partial" title="Player de vídeo. Os controles não estão aparecendo.">Vídeo</strong></th>
+			<th scope="row"><strong class="complete" title="Player de vídeo.">Vídeo</strong></th>
 			<td><a class="enable" 	href="demo/video.php">Demo</a></td>
 			<td><a class="enable" 	href="snippets/video.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/video.css">CSS</a></td>
@@ -385,7 +385,7 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="partial" title="Formulário para enquetes. Falta código do resultado da enquete.">Enquete</strong></th>
+			<th scope="row"><strong class="complete" title="Formulário para enquetes.">Enquete</strong></th>
 			<td><a class="enable" 	href="demo/enquete.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/enquete.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/enquete.css">CSS</a></td>
