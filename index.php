@@ -331,19 +331,19 @@
 			<td><a class="disable" 	href="php/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="" title="Slide de Imagens I">Slide de Imagens I</strong></th>
+			<th scope="row"><strong class="complete" title="Slide de Imagens I">Slide de Imagens I</strong></th>
 			<td><a class="enable" 	href="demo/slide-de-imagens_I.php">Demo</a></td>	
-			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.html">HTML</a></td>
-			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.css">CSS</a></td>
-			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.js">JS</td>
+			<td><a class="enable" 	href="snippets/slide-de-imagens_I.html">HTML</a></td>
+			<td><a class="enable" 	href="snippets/slide-de-imagens_I.css">CSS</a></td>
+			<td><a class="enable" 	href="js/scripts.slide-imagens.js">JS</td>
 			<td><a class="disable" 	href="php/homepage.php">PHP</a></td>
 		</tr>		
 		<tr>
-			<th scope="row"><strong class="" title="Slide de Imagens II">Slide de Imagens II</strong></th>
+			<th scope="row"><strong class="complete" title="Slide de Imagens II">Slide de Imagens II</strong></th>
 			<td><a class="enable" 	href="demo/slide-de-imagens_II.php">Demo</a></td>	
-			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.html">HTML</a></td>
-			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.css">CSS</a></td>
-			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.js">JS</td>
+			<td><a class="enable" 	href="snippets/slide-de-imagens_II.html">HTML</a></td>
+			<td><a class="enable" 	href="snippets/slide-de-imagens_II.css">CSS</a></td>
+			<td><a class="disable" 	href="snippets/slide-de-imagens_efeito_carrossel.js">JS</td>
 			<td><a class="disable" 	href="php/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
