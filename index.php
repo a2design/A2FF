@@ -331,13 +331,29 @@
 			<td><a class="disable" 	href="php/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
+			<th scope="row"><strong class="" title="Slide de Imagens I">Slide de Imagens I</strong></th>
+			<td><a class="enable" 	href="demo/slide-de-imagens_I.php">Demo</a></td>	
+			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.html">HTML</a></td>
+			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.css">CSS</a></td>
+			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.js">JS</td>
+			<td><a class="disable" 	href="php/homepage.php">PHP</a></td>
+		</tr>		
+		<tr>
+			<th scope="row"><strong class="" title="Slide de Imagens II">Slide de Imagens II</strong></th>
+			<td><a class="enable" 	href="demo/slide-de-imagens_II.php">Demo</a></td>	
+			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.html">HTML</a></td>
+			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.css">CSS</a></td>
+			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.js">JS</td>
+			<td><a class="disable" 	href="php/homepage.php">PHP</a></td>
+		</tr>
+		<tr>
 			<th scope="row"><strong class="complete" title="Slide de Imagens (Efeito Carrossel)">Slide de Imagens (Efeito Carrossel)</strong></th>
 			<td><a class="enable" 	href="demo/slide-de-imagens_efeito_carrossel.php">Demo</a></td>	
 			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.css">CSS</a></td>
 			<td><a class="enable" 	href="snippets/slide-de-imagens_efeito_carrossel.js">JS</td>
 			<td><a class="disable" 	href="php/homepage.php">PHP</a></td>
-		</tr>
+		</tr>	
 		<tr>
 			<th scope="row"><strong class="complete" title="Menu bubbleup com plugin jQuery">Menu BubbleUp</strong></th>
 			<td><a class="enable" 	href="demo/menu_bubbleup.php">Demo</a></td>			
