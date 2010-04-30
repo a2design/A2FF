@@ -23,7 +23,7 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	background:#001223 url(../img/bg_blue2.jpg) repeat;
+	background:white;
 	font-family: Arial, Verdana, Helvetica, Sans-serif;
 	font-size: 62.5%; /* 62.5% = 10px = 1em */
 	line-height: 18px;
@@ -34,10 +34,8 @@ img {
 
 #global {width: 760px;margin: 0 auto;}
 
-@font-face {font-family: Frutiger;src: url('../img/Frutiger-BoldCn.ttf');}
-
-h2#trac a {color:#666;text-decoration:none;}
-h2#trac a:hover {text-decoration:underline;}
+h2#trac a {text-decoration:none;}
+h2#trac a:hover {color:#0068A6;}
 
 #page {
 	text-align: left;
@@ -53,24 +51,22 @@ h2#trac a:hover {text-decoration:underline;}
 #nav_main {padding:10px;display:block;text-align:center; font-family:Arial;margin:0 auto 25px;width:100%;}
 #nav_main ul {padding:0;margin:0 auto;}
 #nav_main ul li {display:inline;margin:0 10px;font-size:21px;letter-spacing:-1px;}
-#nav_main ul li a {text-decoration:none;font-weight:bold;color:#fff;text-shadow: 1px 1px 1px #000;}
-#nav_main ul li a:hover {border-bottom:2px solid #378EDB;}
+#nav_main ul li a {text-decoration:none;font-weight:bold;color:#ccc;}
+#nav_main ul li a:hover {color: #0068A6;}
 
-p.version {color:#999;font-weight:bold;font-size:14px;}
+p.version {color:#ccc;font-weight:bold;font-size:14px;}
 
-#logo {text-align:center;width:100%;padding:50px 0;}
+#logo {text-align:center;width:100%;padding:10px 0;}
 
 #logo h1 {
-	font-size:72px;
 	font-family: Frutiger, sans-serif;
-	background:url(../img/logo2.png) no-repeat left center;
-	letter-spacing:-7px;
-	text-shadow: 2px 2px 2px #000;
+	background:url(../img/logo_a2ff.gif) no-repeat left center;
 	color:white;
 	text-transform:lowercase;
 	margin:0;
-	display:inline;
-	padding:10px 0 10px 115px;
+	width:300px;
+	height:300px;
+	margin:0 auto;
 }
 
 h1 {
@@ -82,7 +78,7 @@ h2 {
 	font-size: 2.0em;
 	clear: both;
 	margin: 0 0 20px;
-	color: #666;
+	color: #0068A6;
 	*width:500px;
 }
 h3 {

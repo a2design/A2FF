@@ -11,6 +11,7 @@
 <div id="global">
 <div id="logo">
 	<h1>Front-end Framework</h1>
+	<p class="version">Versão Alpha / Revisão 01 / jQuery 1.4.2 / jQuery UI 1.8</p>
 </div>
 <div id="nav_main">
 	<ul>
@@ -18,11 +19,11 @@
 		<li class="item04"><a href="#mod_nav">Navegacionais</a></li>
 		<li class="item02"><a href="#mod_multi">Multimídia</a></li>
 		<li class="item03"><a href="#mod_form">Formulários</a></li>
+		<li class="item03"><a href="http://trac.framework-design.a2">Trac »</a></li>
 
 	</ul>
 </div>
 <div id="page">
-<p class="version">Versão pre-Alpha / Revisão 01 / jQuery 1.4.2 / jQuery UI 1.8</p>
 <!--p class="date">
 <?
 	$file = $_SERVER["SCRIPT_NAME"];
@@ -32,7 +33,6 @@
 ?>
 </p-->
 
-<h2 id="trac"><a target="_blank" href="http://trac.framework-design.a2">Trac »</a></h2>
 <p style="color:#666;font-weight:bold;">Passe o mouse sobre o nome para ver a descrição do módulo .</p>
 <h2 id="mod_estr"><a title="#">Módulos estruturais</a></h2>
 <p class="description">Módulos que organizam a estrutura geral da página.</p>
@@ -431,7 +431,15 @@
 			<td><a class="enable" 	href="snippets/cadastro.css">CSS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
-		</tr>		
+		</tr>
+		<tr>
+			<th scope="row"><strong class="" title="Formulário de Cadastro (jQuery - validate)">Formulário de Cadastro (jQuery - validate)</strong></th>
+			<td><a class="enable" 	href="demo/formulario-valida-I.php">Demo</a></td>			
+			<td><a class="enable" 	href="snippets/cadastro.html">HTML</a></td>
+			<td><a class="enable" 	href="snippets/cadastro.css">CSS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
+		</tr>			
 		<tr>
 			<th scope="row"><strong class="complete" title="#">Comentar</strong></th>
 			<td><a class="enable" 	href="demo/comentar.php">Demo</a></td>			
