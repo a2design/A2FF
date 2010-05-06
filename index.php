@@ -5,6 +5,7 @@
 	<script type="text/javascript" src="js/jquery-1.2.6.js"></script>
 	<script type="text/javascript" src="js/qtip.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>	
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/index.css" media="all"/>
 </head>
 <body>
@@ -235,6 +236,14 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
+			<th scope="row"><strong class="" title="">Html5 Media (Audio e Video)</strong></th>
+			<td><a class="enable" 	href="demo/html5media.php">Demo</a></td>
+			<td><a class="enable" 	href="snippets/video.html">HTML</a></td>
+			<td><a class="enable" 	href="snippets/video.css">CSS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
+		</tr>
+		<tr>
 			<th scope="row"><strong class="complete" title="Aplicativo para transição de imagens com legenda.">Slideshow</strong></th>
 			<td><a class="enable" 	href="demo/slideshow.php">Demo</a></td>			
 			<td><a class="enable" 	href="snippets/slideshow.html">HTML</a></td>
@@ -369,6 +378,14 @@
 			<td><a class="enable" 	href="snippets/quicksand.css">CSS</a></td>
 			<td><a class="disable" 	href="snippets/quicksand.js">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
+		</tr>	
+		<tr>
+			<th scope="row"><strong class="complete" title="Dropdown panel">Dropdown Panel</strong></th>
+			<td><a class="enable" 	href="demo/dropdownpanel.php">Demo</a></td>			
+			<td><a class="enable" 	href="snippets/quicksand.html">HTML</a></td>
+			<td><a class="enable" 	href="snippets/dropdownpanel.css">CSS</a></td>
+			<td><a class="disable" 	href="snippets/quicksand.js">JS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>			
 	</tbody>
 </table>
@@ -433,10 +450,10 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
-			<th scope="row"><strong class="" title="Formulário de Cadastro (jQuery - validate)">Formulário de Cadastro (jQuery - validate)</strong></th>
+			<th scope="row"><strong class="complete" title="Formulário de Cadastro (jQuery - validate)">Formulário de Cadastro (jQuery - validate)</strong></th>
 			<td><a class="enable" 	href="demo/formulario-valida-I.php">Demo</a></td>			
-			<td><a class="enable" 	href="snippets/cadastro.html">HTML</a></td>
-			<td><a class="enable" 	href="snippets/cadastro.css">CSS</a></td>
+			<td><a class="enable" 	href="snippets/formulario-valida-I.html">HTML</a></td>
+			<td><a class="enable" 	href="snippets/formulario-valida-I.css">CSS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>			

@@ -8,7 +8,8 @@
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />	
 	<link rel="alternate" type="application/rss+xml" title="Paginação RSS" href="#" />	
 </head>
-<body id="">
+
+<body>
 <div class="pagination">
 				<ul class="nav">
 					<li class="first"><a href="">&lt;&lt;</a></li>			
