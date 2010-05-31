@@ -12,7 +12,7 @@
 <div id="global">
 <div id="logo">
 	<h1>Front-end Framework</h1>
-	<p class="version">Versão Alpha / Revisão 01 / jQuery 1.4.2 / jQuery UI 1.8</p>
+	<p class="version">Versão Alpha / Revisão 01 / jQuery 1.4.2 / jQuery UI 1.8.1</p>
 </div>
 <div id="nav_main">
 	<ul>
@@ -20,7 +20,7 @@
 		<li class="item04"><a href="#mod_nav">Navegacionais</a></li>
 		<li class="item02"><a href="#mod_multi">Multimídia</a></li>
 		<li class="item03"><a href="#mod_form">Formulários</a></li>
-		<li class="item03"><a href="http://trac.framework-design.a2">Trac »</a></li>
+		<li class="item03"><a target="_blank" href="http://trac.framework-design.a2">Trac »</a></li>
 
 	</ul>
 </div>
@@ -103,6 +103,22 @@
 			<td><a class="disable" 	href="php/homepage.php">JS</a></td>
 			<td><a class="disable" 	href="php/homepage.php">PHP</a></td>
 		</tr>		
+		<tr>
+			<th scope="row"><strong class="complete" title="Ícones e avisos baseados no set de ícones FamFamFam.">Ícones e avisos</strong></th>
+			<td><a class="enable" 	href="demo/icones.php">Demo</a></td>			
+			<td><a class="enable" 	href="snippets/icones.html">HTML</a></td>
+			<td><a class="enable" 	href="snippets/icones.css">CSS</a></td>
+			<td><a class="disable" 	href="php/homepage.php">JS</a></td>
+			<td><a class="disable" 	href="php/homepage.php">PHP</a></td>
+		</tr>
+		<tr>
+			<th scope="row"><strong class="complete" title="Exemplos e estilos do jQuery UI framework.">jQuery UI</strong></th>
+			<td><a class="enable" 	href="demo/jquery-ui.php">Demo</a></td>			
+			<td><a class="enable" 	href="snippets/jquery-ui.html">HTML</a></td>
+			<td><a class="enable" 	href="snippets/template.css">CSS</a></td>
+			<td><a class="disable" 	href="php/homepage.php">JS</a></td>
+			<td><a class="disable" 	href="php/homepage.php">PHP</a></td>
+		</tr>							
 	</tbody>
 </table>
 <a class="back" href="#logo">Voltar ao topo</a>
@@ -236,13 +252,37 @@
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>
 		<tr>
+			<th scope="row"><strong class="partial" title="Player de áudio em HTML5. Suporte parcial, mesmo nos navegadores mais modernos.">Áudio (HTML5)</strong></th>
+			<td><a class="disable" 	href="demo/audio.php">Demo</a></td>	
+			<td><a class="enable" 	href="snippets/audio5.html">HTML</a></td>
+			<td><a class="disable" 	href="snippets/audio.css">CSS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
+		</tr>
+		<tr>
+			<th scope="row"><strong class="" title="Player de áudio em jQuery. Os controles funcionam, mas a música não toca.">Áudio jPlayer</strong></th>
+			<td><a class="enable" 	href="demo/jplayer.php">Demo</a></td>	
+			<td><a class="disable" 	href="snippets/audio5.html">HTML</a></td>
+			<td><a class="disable" 	href="snippets/audio.css">CSS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
+		</tr>		
+		<tr>
+			<th scope="row"><strong class="" title="Player de vídeo em HTML5.">Vídeo (HTML5)</strong></th>
+			<td><a class="disable" 	href="demo/audio.php">Demo</a></td>	
+			<td><a class="disable" 	href="snippets/audio5.html">HTML</a></td>
+			<td><a class="disable" 	href="snippets/audio.css">CSS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
+		</tr>		
+		<!--tr>
 			<th scope="row"><strong class="" title="">Html5 Media (Audio e Video)</strong></th>
 			<td><a class="enable" 	href="demo/html5media.php">Demo</a></td>
 			<td><a class="enable" 	href="snippets/video.html">HTML</a></td>
 			<td><a class="enable" 	href="snippets/video.css">CSS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
-		</tr>
+		</tr-->
 		<tr>
 			<th scope="row"><strong class="complete" title="Aplicativo para transição de imagens com legenda.">Slideshow</strong></th>
 			<td><a class="enable" 	href="demo/slideshow.php">Demo</a></td>			
@@ -387,6 +427,14 @@
 			<td><a class="disable" 	href="snippets/quicksand.js">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>			
+		<tr>
+			<th scope="row"><strong class="complete" title="API para diferentes fontes renderizadas diretamente no browser.">Google Fonts</strong></th>
+			<td><a class="enable" 	href="demo/google-fonts.php">Demo</a></td>			
+			<td><a class="enable" 	href="snippets/google-fonts.html">HTML</a></td>
+			<td><a class="disable" 	href="snippets/dropdownpanel.css">CSS</a></td>
+			<td><a class="disable" 	href="snippets/quicksand.js">JS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
+		</tr>				
 	</tbody>
 </table>
 <a class="back" href="#logo">Voltar ao topo</a>
@@ -474,6 +522,14 @@
 			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
 			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
 		</tr>	
+		<tr>
+		<th scope="row"><strong class="complete" title="Framework exclusivo para formulários.">Formee</strong></th>
+			<td><a class="enable" 	href="demo/formee.php">Demo</a></td>			
+			<td><a class="enable" 	href="snippets/formee.html">HTML</a></td>
+			<td><a class="disable" 	href="snippets/botao_google.css">CSS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">JS</a></td>
+			<td><a class="disable" 	href="snippets/homepage.php">PHP</a></td>
+		</tr>			
 	</tbody>
 </table>
 

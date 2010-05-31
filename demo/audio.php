@@ -11,9 +11,12 @@
 <body id="">
 	
 <div class="figure audio">
-	<p class="path">
+	<audio autoplay="autoplay" controls="controls">  
+		<source src="../img/bark.ogg" />  
+		<!--source src="../img/teste.mp3" /-->  
 		<embed width="300" height="45" type="application/x-shockwave-flash" src="../img/swf/mp3player.swf" pluginspage="http://www.adobe.com/go/getflashplayer" flashvars="mp3url=%2Fimg%2Fswf%2F4.mp3"/>
-	</p>
+	</audio>  
+
 	<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec auctor felis. Mauris quis nibh quis turpis imperdiet consequat.</p>
 </div>
 
