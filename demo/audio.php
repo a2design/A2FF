@@ -7,18 +7,29 @@
 	<link rel="stylesheet" type="text/css" href="../snippets/audio.css" media="all" />
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />	
 	<link rel="alternate" type="application/rss+xml" title="teste RSS" href="#" />	
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+	
+			//Áudio			
+		    $('div.audio a[@href$="mp3"]').flash(
+		        { src: '../snippets/mp3player.swf', height: 34, width: 500, allowFullScreen : false, wmode : 'transparent' },
+				{ version: 8 },
+		        function(htmlOptions) {
+		            $this = $(this);
+		            htmlOptions.flashvars.mp3url = $this.attr('href');
+					this.innerHTML = '';
+					$this.before($.fn.flash.transform(htmlOptions));						
+		        }
+		    );			
+		});		
+
+		</script>
+		
 </head>
 <body id="">
 	
-<div class="figure audio">
-	<audio autoplay="autoplay" controls="controls">  
-		<source src="../img/bark.ogg" />  
-		<!--source src="../img/teste.mp3" /-->  
-		<embed width="300" height="45" type="application/x-shockwave-flash" src="../img/swf/mp3player.swf" pluginspage="http://www.adobe.com/go/getflashplayer" flashvars="mp3url=%2Fimg%2Fswf%2F4.mp3"/>
-	</audio>  
-
-	<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec auctor felis. Mauris quis nibh quis turpis imperdiet consequat.</p>
-</div>
+<?php include('../snippets/audio2.html'); ?>
 
 </body>
 </html>

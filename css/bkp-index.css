@@ -1,0 +1,79 @@
+.slide{
+	margin:0 auto;
+	margin-top:10px;
+	width: 1400px;
+	height: auto;
+	display: block;
+	overflow: hidden;
+}
+.slide-miniaturas{
+	float: left;
+	display: block;
+	overflow: hidden;
+	line-height: 41px;
+	width:100%;
+}
+div.miniatura{
+	border-color:#404040 #1A1A1A #1A1A1A #505050;
+	border-style:solid;
+	border-width:1px;
+	color:#FFF;
+	font-size: 1.4em;
+	float: left;
+	width: 220px;
+	height:50px;
+	text-align: center;
+	display: block;
+	line-height: 52px;
+	margin-bottom: 5px;
+	background: #333;
+	cursor: pointer;
+}
+.slide-miniaturas .slide-miniatura-atual{
+	background:#4698CA;
+	border-left-color:#5DB1E0;
+	border-bottom-color:#5DB1E0;
+	color:#FFFFFF;
+}
+.slide-miniaturas div.primeiro{
+	margin: 0;
+	padding: 0;
+}
+.slide-conteudo{
+	height: 560px;
+	overflow: hidden;
+	display: block;
+	background: url('../../img/index/logo_a2ff_v2.gif');
+	border: 1px solid #acabab;
+	margin-bottom: 10px;
+}
+.slide-conteudo .slide-painel-conteudo{
+	width:1400px;
+}
+.painel{
+	float: left;
+	display: block;
+	height: 540px;
+	padding: 20px;
+	width: 1360px;
+}
+.slide-controls{display:table; width:100%;}
+.slide-controls a.seta{
+	width: 216px;
+	height:46px;
+	font-size: 1.4em;
+	float: left;
+	display: block;
+	overflow: hidden;
+	line-height: 42px;
+	text-align:center;
+	background: #333;
+	border-color:#404040 #1A1A1A #1A1A1A #505050;
+	border-style:solid;
+	border-width:1px;
+	color:#FFF;
+	text-decoration:none;	
+}
+.slide-controls a.seta:visited{color: #FFF;}
+.slide-controls a.seta:hover{background: #4698CA; border-top-color:#5DB1E0; border-left-color:#5DB1E0;}
+.slide-controls a.proximo{float: right;}

@@ -3,9 +3,14 @@
 	name: Lista de noticias [CSS]
 	toolTip: Lista de noticias [CSS]
 */
-
+.entries{width: 800px; margin: 10px;}
 .entries ul {list-style:none;margin:0;padding:0;}
-.entries ul li {margin:0;}
+.entries ul li {margin:0; }
+
+.entries ul li.highlight{margin: 0 0 20px 0;}
+.entries ul li.entry{margin: 0 0 10px 0;}
+
+
 
 .entries ul li.entry .date {
 	background-color:#EEEEEE;
@@ -22,7 +27,6 @@
 	width:55px;
 	font-size:11px;
 }
-
 .entries ul li.highlight p.category {
 	display:inline;
 	font-size:11px;
@@ -32,9 +36,10 @@
 }
 
 .entries ul li.highlight .category a, .entries ul li.highlight h3 a, .entries ul li.entry h4 a {text-decoration:none;color:#666;}
+.entries ul li.entry h4 a{font-size: 1.5em;}
 .entries ul li.highlight .category a:hover, .entries ul li.highlight h3 a:hover, .entries ul li.entry h4 a:hover {text-decoration:underline;}
 
-.entries ul li.highlight h3 {margin:2px 0 5px 70px;}
+.entries ul li.highlight h3 {margin:5px 0 5px 70px; font-size: 2em;}
 .entries ul li.highlight p.description {margin:0 0 0 70px;font-size:12px;font-style:italic;}
 
 .entries ul.media {margin-bottom:0;padding-left:0;}
@@ -44,6 +49,7 @@
 	float:right;
 	text-indent:-9999px;
 	width:24px;
+	height:16px;
 	margin-left:5px;
 }
 
@@ -51,5 +57,4 @@
 .entries ul.media li.video {background:url(../img/ico/film.png) no-repeat;}
 .entries ul.media li.img {background:url(../img/ico/picture.png) no-repeat;}
 .entries ul.media li.file {background:url(../img/ico/page_white.png) no-repeat;}
-
-.entries h3.date {background:#666;color:white;padding:5px;font-size:14px;}
+.entries h3.date {background:#666;color:white;padding:5px;font-size:14px; margin: 0 0 5px 0;}

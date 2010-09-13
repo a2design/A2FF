@@ -1,0 +1,89 @@
+/*
+	category: A2 Formularios
+	name: Formulario de Cadastro (jQuery - validate) [CSS]
+	toolTip: Formulario de Cadastro (jQuery - validate) [CSS]
+*/
+
+/* Formulario de Cadastro (jQuery - validate) 
+*********************************************************************************************/
+/*CSS de validacao do formulario*/
+label { display: block; margin-top: 10px; }
+label.error {
+	float: none;
+	color: #EFC20E;
+	background:#FFF6BF; 
+	border:1px solid #EFC20E; 
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+	margin: 1px .5em 0 0; 
+	vertical-align: top; 
+	font-size: 1em; 
+	position:absolute;
+}
+em { font-weight: bold; padding-right: 1em; vertical-align: top;}
+label.error em{margin:0 15px 0 0;}
+/* a href*/
+form a {text-decoration:none;color:#666;}
+form a:hover {text-decoration:underline;}
+
+/*Titulo*/
+h2 {clear:both; font-size:2em;font-weight:normal;letter-spacing:-1px;line-height:26px;margin-bottom:20px;}
+.subtitulo {color:#666666;font-style:italic;font-weight:normal;	letter-spacing:0;margin-top:-10px;}
+p.verificaCep{display:table;margin:0;padding:20px 0 0 0;height:100%;}
+/*Form*/
+form {margin:0 auto;margin-top:20px; width:auto;display:table; padding:10px; border:1px solid #CCC;}
+/*Div*/
+form div.linha{display:block;height:60px; margin:0 0 5px 0;}
+/*Label*/
+form label{float:left;margin:5px 15px 0 0;}
+/*Span*/
+form label span{display:block;}
+form div#campo08 span {display:block;height:20px;margin:10px 0 0;padding:5px;font-size:12px;font-weight:bold;padding-bottom:3px;}
+/*Fieldset*/
+fieldset{border:none;}
+/*Inputs*/
+form label input{height:20px;width:230px;background-color:#F5F5F5;border:1px solid #999999;color:#666666;padding:3px;}
+form div#campo03 label input#cep{width:150px;}
+form div#campo07 label input#ddd_tel, 
+form div#campo07 label input#ddd_cel {width:35px;margin:0 15px 0 0;}
+form div#campo07 label input#telefone, 
+form div#campo07 label input#celular {width:167px;}
+form div#campo08 input#noticias {float:left;margin:5px 5px 0 0;}
+/*Select*/
+form label select{background-color:#F5F5F5;border:1px solid #999999;color:#666666;font-size:12px;font-weight:bold;height:25px;}
+form span#city select {width:422px;}
+/*Input - Botao*/
+form input.inputEnviar{border:1px solid #666;padding:5px;height:30px;width:60px;background:#999;color:#FFF;font-weight:bold;}
+/*Tooltip*/
+.tooltip-conteudo {
+	padding: 5px;
+	border: 1px solid #85CAF3;
+	background: #DDEEFF;
+	color: #85CAF3;
+	z-index: 10;top: 0;left: 0;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+.tooltip-conteudo img {
+    border: 1px solid #000;
+    display: block; /*Mini hack pra retirar a linha que fica embaixo da imagem*/
+}
+.tooltip-load, .modal-load {
+    background: #444 url(../img/load.gif) no-repeat center;
+    width: 62px;
+    height: 13px;
+    display: block;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+

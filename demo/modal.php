@@ -4,8 +4,8 @@
 	<title>Modal</title>	
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<meta name="author" content="A2 Comunicação" />	
-	<script type='text/javascript' src='../js/jquery.js'></script>
 	<link rel="stylesheet" type="text/css" href="../snippets/reset.css" media="all" />	
+	<script type='text/javascript' src='../js/jquery-1.4.2.min.js'></script>
 	<!--Núcleo do jQuery UI-->
 	<script type='text/javascript' src='../js/ui/jquery.ui.core.min.js'></script>
 	<script type='text/javascript' src='../js/ui/jquery.ui.widget.min.js'></script>
@@ -15,7 +15,7 @@
 	<script type='text/javascript' src='../js/ui/jquery.ui.dialog.min.js'></script>
 	<script type='text/javascript' src='../js/ui/jquery.ui.draggable.min.js'></script>
 	<script type='text/javascript' src='../js/ui/jquery.ui.resizable.min.js'></script>
-	<link rel="stylesheet" type="text/css" href="../css/jquery-ui-1.8.custom.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="../css/jquery-ui-1.8.1.custom.css" media="all" />
 	<script type='text/javascript'>
 	$(function(){
 		//Chama o elemento via clique

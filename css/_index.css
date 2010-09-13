@@ -1,0 +1,99 @@
+#header{display:table;width: 1400px;}
+#header #logo{display:table; float:left;}
+#header #logo h1 {
+	background:url(../../img/index/logo_a2ff.gif) no-repeat left center;
+	text-indent:-9999px;
+	color:white;
+	text-transform:lowercase;
+	margin:0;
+	width:120px;
+	height:120px;
+	float:left;
+}
+#header p.version{
+	width:210px;
+	height:50px;
+	display:block;
+	line-height:15px;
+	font-weight:bold;	
+	font-size:1em;
+	margin:5px 0 0 0;
+	padding:5px;
+	float:left;
+}
+.slide{
+	margin:0 auto;
+	width: 1400px;
+	height: auto;
+	display: block;
+	overflow: hidden;
+}
+.conteudo{
+	height: 520px;
+	overflow: hidden;
+	display: block;
+	background: url('../../img/index/logo_a2ff_v2.gif');
+	border: 1px solid #acabab;
+	margin-bottom: 5px;
+}
+.conteudo .slide-painel-conteudo{
+	width:1400px;
+}
+.painel{
+	float: left;
+	display: block;
+	height: 500px;
+	padding:10px;
+	width: 1380px;
+}
+/*Botão Apresentação*/
+.apresentacao{display:table; float: left; margin:5px 0 0 0; width:216px;}
+.apresentacao p{padding:5px; margin: 5px 0 0 0;}
+.apresentacao a.bt-apresentacao{
+	width: 216px;
+	height:46px;
+	font-size: 1.4em;	
+	display: block;
+	overflow: hidden;
+	line-height: 42px;
+	text-align:center;
+	background: #333;
+	border-color:#404040 #1A1A1A #1A1A1A #505050;
+	border-style:solid;
+	border-width:1px;
+	color:#FFF;
+	text-decoration:none;	
+}
+.apresentacao a.bt-apresentacao:hover{background: #4698CA; border-top-color:#5DB1E0; border-left-color:#5DB1E0;}
+/*Botão download*/
+.download{display:table; width:100%; margin: 0 0 10px 0;}
+.download a.bt-download{
+	width: 216px;
+	height:46px;
+	font-size: 1.4em;
+	float: right;
+	display: block;
+	overflow: hidden;
+	line-height: 42px;
+	text-align:center;
+	background: #333;
+	border-color:#404040 #1A1A1A #1A1A1A #505050;
+	border-style:solid;
+	border-width:1px;
+	color:#FFF;
+	text-decoration:none;	
+}
+.download a.bt-download:visited{color: #FFF;}
+.download a.bt-download:hover{background: #4698CA; border-top-color:#5DB1E0; border-left-color:#5DB1E0;}
+
+/*Input Busca*/
+.dataTables_filter input{
+	height:20px;
+	width:400px;
+	border:1px solid #CCC;
+	padding:5px;
+}
+.css_right {
+	float:right;
+}
+

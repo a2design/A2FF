@@ -3,14 +3,15 @@
 	name: Slideshow (Head) [HTML]
 	toolTip: Slideshow (Head) [HTML]
 -->
-<script type="text/javascript" src="js/jquery.cycle.js" ></script> 
+<script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="../js/jquery.cycle.js" ></script> 
 <script type="text/javascript">
 	 $(document).ready(function() {
 		$.fn.cycle.defaults.timeout = 7000;
 			$(function() {
 				$('#slideshow').cycle({ 
 			    fx:     'fade', 
-			    delay: -1000,
+			    delay: 	-1000,
 			    next:   '#next2',
 			    prev:   '#prev2'	
 			}); 

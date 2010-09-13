@@ -1,0 +1,29 @@
+/*
+	category: A2 Estrutura
+	name: Template (Mobile) [CSS]
+	toolTip: Template (Mobile) [CSS]
+*/
+
+/*Reset 
+****************************************************/
+* { vertical-align: center; font-weight: inherit; font-family: inherit; font-style: medium; font-size: inherit; text-decoration: none; border: 0 none; outline: 0; padding: 0; margin: 0; }
+cite,em,dfn {font-style:italic;}
+code,kbd,samp,pre,tt,var,input[type='text'],input[type='password'],textarea {font-family:mono-space,monospace;}
+pre {white-space:pre;}
+del {text-decoration:line-through;}
+ins,dfn { border-bottom:1px solid #333;}
+small,sup,sub {font-size:small;}
+big {font-size:large;}
+abbr,acronym {text-transform:uppercase;font-size:small;}
+abbr[title],acronym[title],dfn[title] {cursor:help;	border-bottom:1px dotted black;}
+sup {vertical-align:super;}
+sub {vertical-align:sub;}
+blockquote{margin-left:20px;}
+ul {list-style:square outside;}
+ol {list-style:decimal outside;}
+ul, ol {margin-left:20px;margin-bottom:10px;}
+
+/*page 
+****************************************************/
+#page {background:#fff;margin:20px;}
+#header, #content, #footer {border:1px solid #ccc;margin-bottom:10px;background:#eee;height:50px;}

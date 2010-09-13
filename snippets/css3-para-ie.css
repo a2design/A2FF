@@ -1,0 +1,97 @@
+/*
+	category: A2 Multimidia
+	name: CSS3 Para IE [CSS]
+	toolTip: CSS3 Para IE [CSS]
+*/
+/*CSS3 Para IE
+ ****************************************************/
+html{
+	background: url('../img/bg_blue2.jpg');
+	color:#FFF;
+	height:800px;
+	text-align:center;
+	margin:0 auto;
+}
+
+/*Opacidade*/
+#opacidade{
+	opacity: .4; /* other browsers */
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40); /* this works in IE6, IE7, and IE8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=40)"; /* this works in IE8 only */
+	width:250px;
+	height:100px;
+	background:#f5f5f5;
+	border:4px solid #666;
+	padding:5px;
+	color:#000;	
+	font-weight:bold;
+	margin:0 auto;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+/*box-shadow*/
+#box-shadow {
+	-moz-box-shadow: 2px 2px 3px #969696; /* for Firefox 3.5+ */
+	-webkit-box-shadow: 2px 2px 3px #969696; /* for Safari and Chrome */
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=145, Strength=3);
+	width:250px;
+	height:100px;
+	background:#999;
+	border:4px solid #666;
+	padding:5px;
+	color:#000;	
+	margin:0 auto;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+/*gradient*/
+#gradient {
+	background-image: -moz-linear-gradient(top, #81a8cb, #4477a1); /* Firefox 3.6 */
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #4477a1),color-stop(1, #81a8cb)); /* Safari & Chrome */
+	filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#81a8cb', endColorstr='#4477a1'); /* IE6 & IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#81a8cb', endColorstr='#4477a1')"; /* IE8 */
+	width:250px;
+	height:100px;
+	padding:5px;
+	color:#000;	
+	margin:0 auto;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+/*Transparent Background Colors (RGBA)*/
+#rgba{
+	background: rgba(98, 135, 167, .4);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#886287a7', endColorstr='#886287a7');
+	width:250px;
+	height:100px;
+	margin:0 auto;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+/*Multiple Backgrounds*/
+#multi-bg {
+	background: url('../img/formee-logo.png') center center no-repeat, url('../img/gmap_pin.png') top left repeat;
+	width:400px;
+	height:200px;
+	margin:0 auto;
+}
+#multi-bg-ie{
+	background: transparent url('../img/gmap_pin.png') top center repeat;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='../img/formee-logo.png', sizingMethod='crop'); /* IE6-8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/formee-logo.png', sizingMethod='crop')"; /* IE8 only */
+	width:400px;
+	height:200px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+.slide{
+	width: 920px;
+	height: 160px;
+	display: block;
+	overflow: hidden;
+	position:relative;
+}
+.slide-conteudo{
+	height: 160px;
+	overflow: hidden;
+	display: block;
+	background: #000;
+	position:absolute;
+}
+.painel{
+	float: left;
+	display: block;
+	height: 160px;
+	width: 920px;
+}
+.slide-miniaturas{
+	display: block;
+	overflow: hidden;
+	line-height: 26px;
+	position:absolute;
+	margin: 4px 20px 0 0;
+	right:0;
+}
+div.miniatura{
+	font-size: 12px;
+	font-weight:bold;
+	width: 28px;
+	height:28px;
+	text-align: center;
+	display: block;
+	margin: 2px 0;
+	background: #FFF;
+	cursor: pointer;
+	opacity: .4; /* other browsers */
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40); /* this works in IE6, IE7, and IE8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=40)"; /* this works in IE8 only */	
+}
+div.miniatura:hover{
+	color:#ff8a00;
+}
+.slide-miniaturas .slide-miniatura-atual{
+	background: #ccc;
+	color: #2c2c2c;		
+}
+
+

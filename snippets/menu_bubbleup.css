@@ -1,0 +1,43 @@
+/*
+	category: A2 Multimidia
+	name: Menu BubbleUp [CSS]
+	toolTip: Menu BubbleUp [CSS]
+*/
+
+/*Menu BubbleUp
+*********************************************************************************************/
+div#demo {
+	margin: 50px auto 50px auto;
+	text-align: center;
+}
+
+div#demo ul#menu {
+    margin: 5px 0px;
+    list-style: none;
+    display: inline-block;
+}
+    
+div#demo ul#menu li {
+    padding: 0px;
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 48px;
+    height: 48px;
+}
+
+div#demo ul#menu li a {
+    position: absolute;
+}
+
+div#demo ul#menu li img {
+    position: absolute;
+    width: 48px;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 0 8px 0 0;
+    border: none;
+    overflow: hidden;
+}

@@ -1,0 +1,39 @@
+<!--
+	category: A2 Multimidia
+	name: Google Maps com Icons(head) [HTML]
+	toolTip: Google Maps com Icons(head) [HTML]
+-->
+
+	<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAFE3CliSENUGw3s1qlQV8DBRQrCljJYSymNWxbbSUejvtBXUsFhTOf5Q-HwBFZvPIxjz-LDvZzqqgog" type="text/javascript"></script>
+	<script type="text/javascript" src="../js/jquery-1.4.2.min.js" ></script>
+	<script type="text/javascript" src="../js/jquery.gmap-1.1.0-min.js"></script>
+	
+	<script type="text/javascript">
+	$(function(){
+	$("#map").gMap({ 
+    	  	latitude: -23.529596,
+	        longitude: -46.67353,
+	        zoom: 16 ,			
+	        markers: [
+                  { latitude: -23.528908, longitude: -46.673037,html: "Rua Doutor Costa Júnior, 465,  CEP 05002-000",		                                                           
+                    icon: { image: "../img/gmap_pin_orange.png",                	  				  
+                    		  iconsize: [26, 46],
+                    		  iconanchor: [12,46],
+                    		  infowindowanchor: [12, 0] }},
+
+                  { latitude: -23.529596, longitude: -46.67353,html: "Rua Doutor Costa Júnior, 365,  CEP 05002-000", 
+                    icon: { image: "../img/gmap_pin_grey.png",
+                    		  iconsize: [26, 46],
+                    		  iconanchor: [12,46],
+                    		  infowindowanchor: [12, 0] }},
+                    
+                  { latitude: -23.527584, longitude: -46.671002, html: "Bar e Lanchonete Matarazzo Ltda",
+                    icon: { image: "../img/gmap_pin.png", 
+	                          iconsize: [26, 46],
+	                          iconanchor: [12, 46],	                          
+	                          infowindowanchor: [12, 0] }}
+			        ]            
+			 
+            });	
+		});
+	</script>

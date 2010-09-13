@@ -1,0 +1,33 @@
+/*
+	category: A2 Multimidia
+	name: Quicksand [CSS]
+	toolTip: Quicksand [CSS]
+*/
+
+/*Filtro - Quicksand
+*********************************************************************************************/
+
+.image-grid li {
+	color:#686F74;
+	float:left;
+	font-family:"Helvetica Neue",sans-serif;
+	height:177px;
+	line-height:17px;
+	margin:20px 0 0 35px;
+	overflow:hidden;
+	text-align:center;
+	width:128px;
+}
+ul li {
+	list-style:square outside none;
+}
+.image-grid li img {
+	display:block;
+}
+.image-grid li strong{
+	display:block;
+	widows:200px;
+	background:#CCC;
+	font-weight:normal;
+	text-shadow:0 0 10px rgba(255, 255, 255, 0.85);
+}

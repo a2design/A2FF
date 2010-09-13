@@ -1,0 +1,32 @@
+/*
+	category: A2 Nav
+	name: Dropdown [CSS]
+	toolTip: Dropdown [CSS]
+*/
+
+/*dropdown****************************************/
+.display {display:none;}
+.dropdown {
+	margin:0;
+	padding:0;
+}
+.dropdown li {
+	display:inline;
+}
+
+.dropdown li a {color:#666;text-decoration:none;margin-right:15px;}
+.dropdown li a.drop {background:url(../img/seta.gif) no-repeat right center;padding-right:12px;}
+
+.dropdown li.item01 {position:relative;}
+.dropdown li.item01 ul {
+	border:1px solid #ccc;
+	background:#eee;
+	margin:0;
+	padding:0;
+	width:80px;
+	position:absolute;
+	top:20px;
+	left:0;
+}
+
+.dropdown li.item01 ul li {display:block;padding:10px 5px;}

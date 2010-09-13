@@ -7,24 +7,12 @@
 /*Album de Fotos - Gallery View
 *********************************************************************************************/
 
-h2.section_title {
-	border-bottom:3px solid #CCCCCC;
-	font-size:24px;
-	letter-spacing:-1px;
-}
-element.style  {
-	height:110px;
-	left:0;
-	overflow:hidden;
-	position:absolute;
-	top:335px;
-	width:210px;
-}
-#album_view .panel-overlay h2{font-size:12px;margin:5px 0 0px 0;}
-#album_view .panel-overlay p{font-size:10px;}
+
+#album_view .panel-overlay h2{font-size:1.2em;margin:5px 0 0px 0;}
+#album_view .panel-overlay p{font-size:1em;}
 #album_view, #photos {
 	-moz-border-radius-bottomleft:5px;
 	-moz-border-radius-bottomright:5px;
-	margin-bottom:10px;
+
 }
-.filmstrip li {width:98px;height:100px;overflow:hidden;}
+

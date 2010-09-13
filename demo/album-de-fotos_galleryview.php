@@ -4,6 +4,7 @@
 	<title>teste</title>	
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<meta name="author" content="A2 Comunicação" />	
+	<link rel="stylesheet" type="text/css" href="../snippets/reset.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="../snippets/album-de-fotos_galleryview.css" media="all" />
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />	
 	<link rel="alternate" type="application/rss+xml" title="teste RSS" href="#" />	

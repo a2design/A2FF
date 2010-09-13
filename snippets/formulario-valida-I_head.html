@@ -1,0 +1,26 @@
+<!--
+	category: A2 Formularios
+	name: Formulario de Cadastro (jQuery - validate) head[HTML]
+	toolTip: Formulario de Cadastro (jQuery - validate) head [HTML]
+-->
+	<!-- Scripts -->
+	<script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.validate.js"></script>	
+	<script type="text/javascript" src="../js/jquery.tooltip.focus.min.js"></script>	
+    <script type="text/javascript" src="../js/valida.form.cadastro.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('input.inputText').tooltip({
+                posicao: 'top4',
+                evento: 'focus',
+                eventoFim: 'blur',
+				atributo:'title'
+            });			
+			$('input.inputText').focuss({
+				cor: '#85CAF3', 	
+				remove: true, 					
+				removeTexto: true,
+			});
+
+        });
+    </script>

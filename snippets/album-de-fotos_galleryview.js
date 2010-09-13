@@ -4,7 +4,6 @@
 	toolTip: Album de fotos (Gallery View) [JS]
 */	
 	//Chamadas para os scripts jQuery///////////////////////////////////////////////	
-	//<script type="text/javascript" src="../js/jquery-1.3.2.js" ></script>
 	//<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>	
 	//<script type="text/javascript" src="../js/jquery.galleryview-1.1.js"></script>
 	//<script type="text/javascript" src="../js/jquery.timers-1.1.2.js"></script>

@@ -6,20 +6,19 @@
 
 /*Slideshow
 *********************************************************************************************/
-#slideshow img {border:1px solid #2E0406;}
-#slideshow a {outline:none;}
-.image .legend {background:#eee;border:1px solid #ccc;}
-.image .legend {background:#666;}
-.image #slideshow .legend {padding:25px 25px 1px;height:49px;border:1px solid #2E0406;width:250px;}
-.image .legend {margin-top:-6px;padding:12px;font-size:11px;line-height:16px;height:60px;overflow:hidden;}
-.legend p {text-align:left;}
-.image .legend a{text-decoration: none;}
+#slideshow img {border:1px solid #CCC; margin:0;}
+#slideshow a {outline:none; display:table;}
+.image .legend {
+	background:#f5f5f5;border:1px solid #ccc;
+	margin-top:0;font-size:11px;line-height:16px;height:60px;overflow:hidden;
+	padding:15px 25px 1px;height:49px;width:250px;
+}
+.image .legend a{text-decoration: none; }
 .image .legend a:hover{text-decoration:underline;}
-.image .legend p {line-height:13px;}
-.image .legend a, .image p.legend {color:white; font-weight:normal;}
-.image .legend p {line-height:13px;}
+.image .legend p {line-height:10px; margin:0; text-align:left;}
+.image .legend a, .image p.legend {color:#666; font-weight:normal; outline:none;}
 
-#slide {position:relative;height:310px;}
+#slide {position:relative;height:310px; margin:0 auto;}
 #slideNav span a { 	
 	background-color:black;
 	background-repeat:no-repeat;

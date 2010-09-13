@@ -6,11 +6,12 @@
 	<meta name="author" content="A2 Comunicação" />	
 	<link rel="stylesheet" type="text/css" href="../snippets/video.css" media="all" />
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />	
-	<link rel="alternate" type="application/rss+xml" title="teste RSS" href="#" />	
+	<link rel="alternate" type="application/rss+xml" title="teste RSS" href="#" />
+	
 </head>
 <body id="">
 
-	<?php include("../snippets/video.html"); ?>
+	<?php include("../snippets/video2.html"); ?>
 	
 </body>
 </html>

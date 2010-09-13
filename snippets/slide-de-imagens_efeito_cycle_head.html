@@ -1,0 +1,31 @@
+ <!--
+	category: A2 Multimidia
+	name: Slide de Imagens - Cycle (head) [HTML]
+	toolTip: Slide de Imagens - Cycle (head) [HTML]
+-->
+
+<!--Scripts Slide de Imagens Cycle -->
+<script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="../js/jquery.cycle.all.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('#imgs').before('<div id="nav-imgs" class="nav-imgs">').cycle({
+        //selecione o tipo de efeito/////		
+		//fx:     'turnDown',
+		//fx:     'shuffle',
+		//fx:     'fadeZoom',
+		//fx:     'zoom',	
+		//fx:     'growY',
+		//fx:     'growX',	
+		//fx:     'curtainX',
+		//fx:     'curtainY',	
+		//fx:     'toss',
+		////////////////////////////////
+		fx:     'fade',
+	    speed:  'fast',
+        timeout: 3000,
+        pager:  '#nav-imgs',
+        before: function() { if (window.console) console.log(this.src); }
+    });
+});
+</script>

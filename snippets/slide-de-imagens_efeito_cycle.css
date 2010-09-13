@@ -1,0 +1,32 @@
+/*
+	category: A2 Multimidia
+	name: Slide de Imagens - Cycle [CSS]
+	toolTip: Slide de Imagens - Cycle [CSS]
+*/
+/*Slide de imagens com jQuery Cycle*/
+#slide-imagens-cycle{margin:20px;}
+#slide-imagens-cycle #imgs{border:1px solid #CCC;}
+#slide-imagens-cycle #nav-imgs{height:20px;}
+#slide-imagens-cycle #nav-imgs a{
+	display:block;
+	font-size:14px;
+	color:#999;
+	float:left;
+	height:16px;
+	width:16px;
+	text-decoration:none;
+	background: #f5f5f5;
+	border:1px solid #CCC;
+	margin-right: 2px;
+	padding:2px;
+	text-align:center;
+}
+#slide-imagens-cycle #nav-imgs a.activeSlide {background: #666; color:#FFF; }
+#slide-imagens-cycle #box-imgs{
+	border:1px solid #CCC;
+	background:#f5f5f5;
+	width: 190px;
+	margin: 2px 0 0 0;
+	padding:5px;
+}
+

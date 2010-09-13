@@ -1,0 +1,31 @@
+/*
+	category: A2 Nav
+	name: Submenu [CSS]
+	toolTip: Submenu [CSS]
+*/
+
+/*Submenu*********************************************/
+
+#submenu ul {
+	list-style:none outside none;
+	margin:0;
+	padding:0;
+}
+
+#submenu ul li {
+	border-bottom:1px solid #CCCCCC;
+	font-size:21px;
+	font-weight:bold;
+	letter-spacing:-1px;
+	line-height:20px;
+}
+
+#submenu ul li a {
+	color:#999999;
+	padding:10px;	
+	display:block;
+	text-decoration:none;
+}
+
+#submenu ul li a:hover {color:#333;background:#eee;}
+#submenu ul li a.active {color:#333;background:#eee url("../img/next.gif") no-repeat right center;}

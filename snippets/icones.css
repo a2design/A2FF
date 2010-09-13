@@ -1,0 +1,66 @@
+/*
+	category: A2 Multimidia
+	name: Icones [CSS]
+	toolTip: Icones [CSS]
+*/
+
+/*Ícones e avisos***********************************************************/
+
+		.ico {display:block;height:18px;width:18px;background-image:url(../img/ico/ico_sprite.gif);float:left;margin:0 8px 0 0px;}
+		.ico_sucesso {background-position:0 0;}
+		.ico_erro {background-position:-18px 0;}
+		.ico_aviso {background-position:-36px 0;}
+		.ico_cima {background-position:-54px 0;}
+		.ico_direita {background-position:-72px 0;}
+		.ico_baixo {background-position:-90px 0;}
+		.ico_esquerda {background-position:-108px 0;}
+		
+		.ico_video {background-position:0 -18px;}
+		.ico_audio {background-position:-18px -18px;}
+		.ico_foto {background-position:-36px -18px;}
+		.ico_album {background-position:-54px -18px;}
+		.ico_pagina {background-position:-72px -18px;}
+		.ico_pdf {background-position:-90px -18px;}
+		.ico_excel {background-position:-108px -18px;}
+
+		.ico_office {background-position:0 -36px;}
+		.ico_powerpoint {background-position:-18px -36px;}
+		.ico_word {background-position:-36px -36px;}
+		.ico_calendario {background-position:-54px -36px;}
+		.ico_data {background-position:-72px -36px;}
+		.ico_comentario {background-position:-90px -36px;}
+		.ico_comentarios {background-position:-108px -36px;}		
+
+		.ico_sair {background-position:0 -54px;}
+		.ico_email {background-position:-18px -54px;}
+		.ico_rss {background-position:-36px -54px;}
+		.ico_users {background-position:-54px -54px;}
+		.ico_ajuda {background-position:-72px -54px;}
+		.ico_cadeado {background-position:-90px -54px;}
+		.ico_mapa {background-position:-108px -54px;}		
+
+		.ico_print {background-position:0 -72px;}
+		.ico_mundo {background-position:-18px -72px;}
+		.ico_user {background-position:-36px -72px;}
+		.ico_tel {background-position:-54px -72px;}
+		.ico_lupa {background-position:-72px -72px;}
+		.ico_star {background-position:-90px -72px;}
+		.ico_sitemap {background-position:-108px -72px;}				
+
+		.ico_first {background-position:0 -90px;}
+		.ico_last {background-position:-18px -90px;}
+		.ico_prev {background-position:-36px -90px;}
+		.ico_next {background-position:-54px -90px;}
+		.ico_tag {background-position:-72px -90px;}
+		.ico_certo {background-position:-90px -90px;}
+		.ico_facebook {background-position:-108px -90px;}						
+
+		.ico_youtube {background-position:0 -108px;}
+		.ico_flickr {background-position:-18px -108px;}
+		.ico_orkut {background-position:-36px -108px;}
+		.ico_twitter {background-position:-54px -108px;}
+
+		.msg {padding:10px;border:1px solid black;margin-bottom:10px;-moz-border-radius: 5px;-webkit-border-radius: 5px;font-weight:bold;font-size:11px;color:#666;}
+		.msg_sucesso {border-color:green;background-color:#e6ffe6;}
+		.msg_erro {border-color:red;background-color:#fdd;}
+		.msg_aviso {border-color:yellow;background-color:#ffd;}

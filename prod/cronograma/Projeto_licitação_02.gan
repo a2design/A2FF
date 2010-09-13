@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2010-12-12" view-index="0" gantt-divider-location="635" resource-divider-location="300" version="2.0">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart"/>
+    <view id="resource-table">
+        <field id="0" name="Name" width="66" order="0"/>
+        <field id="1" name="Default role" width="33" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+    </calendars>
+    <tasks color="#8cb6ce">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="90" name="Desenvolvimento Portal PMSP" color="#8cb6ce" meeting="false" start="2010-08-02" duration="509" complete="0" priority="1" expand="true">
+            <task id="12" name="Planejamento" color="#8cb6ce" meeting="false" start="2010-08-02" duration="25" complete="0" priority="1" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+                <task id="0" name="Estudos e benchmarkings" color="#8cb6ce" meeting="false" start="2010-08-02" duration="3" complete="0" priority="1" expand="true"/>
+                <task id="1" name="Formulação de proposições de presença e ações de comunicação digital, incluindo ações em redes sociais, comunidades virtuais e blogs, ações interativas e de marketing viral e demais meios digitais" color="#8cb6ce" meeting="false" start="2010-08-05" duration="3" complete="0" priority="1" expand="true"/>
+                <task id="3" name="Análise dos sítios e portais relacionados visando seu aprimoramento" color="#8cb6ce" meeting="false" start="2010-08-10" duration="4" complete="0" priority="1" expand="true"/>
+                <task id="4" name="Análise do mercado para buscar inovações aplicáveis aos sítios e portais" color="#8cb6ce" meeting="false" start="2010-08-10" duration="4" complete="0" priority="1" expand="true"/>
+                <task id="5" name="Estratégia de estruturação e atendimento online para o cidadão, para ambiente web e aplicativos móveis" color="#8cb6ce" meeting="false" start="2010-08-10" duration="7" complete="0" priority="1" expand="true"/>
+                <task id="8" name="Planejamento de Interface e estratégia Interativa" color="#8cb6ce" meeting="false" start="2010-08-13" duration="4" complete="0" priority="1" expand="true"/>
+                <task id="9" name="Estudos de usabilidade" color="#8cb6ce" meeting="false" start="2010-08-17" duration="4" complete="0" priority="1" expand="true"/>
+                <task id="10" name="Planejamento de campanha em canais digitais" color="#8cb6ce" meeting="false" start="2010-08-23" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="11" name="Estratégias de SEM (Search Engine Marketing) – Marketing de Busca" color="#8cb6ce" meeting="false" start="2010-08-30" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="7" name="Estudos e mensuração de resultados" color="#8cb6ce" meeting="false" start="2010-08-30" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="2" name="Suporte em processos de comunicação digital" color="#8cb6ce" meeting="false" start="2010-08-30" duration="5" complete="0" priority="1" expand="true"/>
+            </task>
+            <task id="13" name="Concepção" color="#8cb6ce" meeting="false" start="2010-09-06" duration="20" complete="0" priority="1" expand="false">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+                <depend id="47" type="2" difference="0" hardness="Strong"/>
+                <depend id="48" type="2" difference="0" hardness="Strong"/>
+                <depend id="53" type="2" difference="0" hardness="Strong"/>
+                <depend id="61" type="2" difference="0" hardness="Strong"/>
+                <task id="14" name="Briefings, estudos e sugestão de tecnologias e metodologia de desenvolvimento" color="#8cb6ce" meeting="false" start="2010-09-06" duration="3" complete="0" priority="1" expand="true"/>
+                <task id="15" name="Análise e definição de matrizes de conteúdo" color="#8cb6ce" meeting="false" start="2010-09-09" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="16" name="Definição da arquitetura da informação" color="#8cb6ce" meeting="false" start="2010-09-16" duration="6" complete="0" priority="1" expand="true"/>
+                <task id="17" name="Design da interface" color="#8cb6ce" meeting="false" start="2010-09-24" duration="6" complete="0" priority="1" expand="true"/>
+            </task>
+            <task id="18" name="Desenvolvimento" color="#8cb6ce" meeting="false" start="2010-10-04" duration="38" complete="0" priority="1" expand="true">
+                <depend id="38" type="2" difference="0" hardness="Strong"/>
+                <task id="19" name="Comunicação" color="#8cb6ce" meeting="false" start="2010-10-04" duration="28" complete="0" priority="1" expand="true">
+                    <task id="20" name="Estruturar e hierarquizar conteúdos e funcionalidades" color="#8cb6ce" meeting="false" start="2010-10-04" duration="4" complete="0" priority="1" expand="true"/>
+                    <task id="21" name="Desenvolver modelos para implementação (Wireframes)" color="#8cb6ce" meeting="false" start="2010-10-08" duration="4" complete="0" priority="1" expand="true"/>
+                    <task id="22" name="Desenvolver arquitetura da informação" color="#8cb6ce" meeting="false" start="2010-10-08" duration="6" complete="0" priority="1" expand="true"/>
+                    <task id="23" name="Desenvolver design" color="#8cb6ce" meeting="false" start="2010-10-18" duration="4" complete="0" priority="1" expand="true"/>
+                    <task id="24" name="Elaborar, editar e revisar conteúdos" color="#8cb6ce" meeting="false" start="2010-10-18" duration="7" complete="0" priority="1" expand="true"/>
+                    <task id="25" name="Desenvolver banners, hotsites e demais peças de comunicação digital, sem destinação comercial" color="#8cb6ce" meeting="false" start="2010-10-18" duration="10" complete="0" priority="1" expand="true"/>
+                    <task id="26" name="Aplicar testes de usabilidade, acessibilidade e navegabilidade" color="#8cb6ce" meeting="false" start="2010-10-25" duration="7" complete="0" priority="1" expand="true"/>
+                    <task id="27" name="Desenvolvimento de ações de divulgação em redes sociais" color="#8cb6ce" meeting="false" start="2010-11-03" duration="4" complete="0" priority="1" expand="true"/>
+                    <task id="28" name="Desenvolvimento de interfaces para aplicativos móveis" color="#8cb6ce" meeting="false" start="2010-11-05" duration="4" complete="0" priority="1" expand="true"/>
+                </task>
+                <task id="29" name="Tecnologia da Informação" color="#8cb6ce" meeting="false" start="2010-10-04" duration="38" complete="0" priority="1" expand="true">
+                    <task id="31" name="Desenvolver soluções de tecnologia para simplificar os processos de criação gestão, publicação, distribuição e arquivamento de conteúdos" color="#8cb6ce" meeting="false" start="2010-10-04" duration="7" complete="0" priority="1" expand="true"/>
+                    <task id="33" name="Desenvolvimento de sistemas" color="#8cb6ce" meeting="false" start="2010-10-13" duration="6" complete="0" priority="1" expand="true"/>
+                    <task id="34" name="Desenvolvimento de documento de visão" color="#8cb6ce" meeting="false" start="2010-10-21" duration="7" complete="0" priority="1" expand="true"/>
+                    <task id="35" name="Desenvolvimento de caso de uso" color="#8cb6ce" meeting="false" start="2010-10-21" duration="7" complete="0" priority="1" expand="true"/>
+                    <task id="36" name="Desenvolvimento de interfaces" color="#8cb6ce" meeting="false" start="2010-10-25" duration="10" complete="0" priority="1" expand="true"/>
+                    <task id="37" name="Desenvolvimento de guias de estilo" color="#8cb6ce" meeting="false" start="2010-10-25" duration="15" complete="0" priority="1" expand="true"/>
+                    <task id="30" name="Desenvolver programação" color="#8cb6ce" meeting="false" start="2010-11-04" duration="11" complete="0" priority="1" expand="true"/>
+                    <task id="32" name="Elaborar documentação" color="#8cb6ce" meeting="false" start="2010-11-19" duration="4" complete="0" priority="1" expand="true"/>
+                </task>
+            </task>
+            <task id="38" name="Implementação" color="#8cb6ce" meeting="false" start="2010-11-25" duration="20" complete="0" priority="1" expand="true">
+                <depend id="77" type="2" difference="0" hardness="Strong"/>
+                <task id="40" name="Aplicar testes de usabilidade, acessibilidade e navegabilidade" color="#8cb6ce" meeting="false" start="2010-11-25" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="41" name="Aplicar testes dos componentes da interface nos navegadores internet “padrão”" color="#8cb6ce" meeting="false" start="2010-11-25" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="42" name="Supervisionar o desempenho dos portais e sítios em ambiente de produção e elaborar rotinas de produção" color="#8cb6ce" meeting="false" start="2010-11-25" duration="9" complete="0" priority="1" expand="true"/>
+                <task id="43" name="Supervisionar a implementação e posterior evolução ou correção de sítios e portais e ambientes de comunicação digital" color="#8cb6ce" meeting="false" start="2010-11-25" duration="9" complete="0" priority="1" expand="true"/>
+                <task id="44" name="Definir plano de métricas para acompanhamento de desempenho dos projetos" color="#8cb6ce" meeting="false" start="2010-11-25" duration="9" complete="0" priority="1" expand="true"/>
+                <task id="45" name="Implementação de conteúdo/Imagem" color="#8cb6ce" meeting="false" start="2010-11-25" duration="20" complete="0" priority="1" expand="true"/>
+            </task>
+            <task id="47" name="Serviços eletrônicos" color="#8cb6ce" meeting="false" start="2010-10-04" duration="28" complete="0" priority="1" expand="true">
+                <task id="48" name="Web-Rádio" color="#8cb6ce" meeting="false" start="2010-10-04" duration="23" complete="0" priority="1" expand="false">
+                    <task id="49" name="Elaborar estratégia de gestão de conteúdo" color="#8cb6ce" meeting="false" start="2010-10-04" duration="8" complete="0" priority="1" expand="true">
+                        <depend id="50" type="2" difference="0" hardness="Strong"/>
+                        <depend id="51" type="2" difference="0" hardness="Strong"/>
+                        <depend id="52" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="50" name="Produzir conteúdo" color="#8cb6ce" meeting="false" start="2010-10-14" duration="10" complete="0" priority="1" expand="true"/>
+                    <task id="51" name="Planejar e implementar tecnologia streaming a ser utilizada" color="#8cb6ce" meeting="false" start="2010-10-14" duration="15" complete="0" priority="1" expand="true"/>
+                    <task id="52" name="Gestão, promoção e distribuição de conteúdo do canal de web-rádio" color="#8cb6ce" meeting="false" start="2010-10-14" duration="15" complete="0" priority="1" expand="true"/>
+                </task>
+                <task id="53" name="Aplicativos em redes sociais" color="#8cb6ce" meeting="false" start="2010-10-04" duration="28" complete="0" priority="1" expand="false">
+                    <task id="54" name="Elaborar estratégia de gestão de conteúdo" color="#8cb6ce" meeting="false" start="2010-10-04" duration="4" complete="0" priority="1" expand="true">
+                        <depend id="55" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="55" name="Estruturar e hierarquizar conteúdos e funcionalidades" color="#8cb6ce" meeting="false" start="2010-10-08" duration="4" complete="0" priority="1" expand="true">
+                        <depend id="57" type="2" difference="0" hardness="Strong"/>
+                        <depend id="58" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="56" name="Desenvolver arquitetura da informação e modelos para implementação (Wireframes)" color="#8cb6ce" meeting="false" start="2010-10-04" duration="4" complete="0" priority="1" expand="true">
+                        <depend id="57" type="2" difference="0" hardness="Strong"/>
+                        <depend id="58" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="57" name="Desenvolver design" color="#8cb6ce" meeting="false" start="2010-10-14" duration="5" complete="0" priority="1" expand="true"/>
+                    <task id="58" name="Elaborar, editar e revisar conteúdos" color="#8cb6ce" meeting="false" start="2010-10-14" duration="10" complete="0" priority="1" expand="true">
+                        <depend id="60" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="60" name="Desenvolver programação" color="#8cb6ce" meeting="false" start="2010-10-28" duration="5" complete="0" priority="1" expand="true">
+                        <depend id="59" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="59" name="Aplicar testes de usabilidade, acessibilidade e navegabilidade" color="#8cb6ce" meeting="false" start="2010-11-04" duration="5" complete="0" priority="1" expand="true"/>
+                </task>
+                <task id="61" name="Relacionamento digital com o cidadão" color="#8cb6ce" meeting="false" start="2010-10-04" duration="20" complete="0" priority="1" expand="false">
+                    <task id="62" name="Elaborar estratégia" color="#8cb6ce" meeting="false" start="2010-10-04" duration="6" complete="0" priority="1" expand="true"/>
+                    <task id="63" name="Elaborar estratégia de gestão do conteúdo" color="#8cb6ce" meeting="false" start="2010-10-04" duration="5" complete="0" priority="1" expand="true">
+                        <depend id="64" type="2" difference="0" hardness="Strong"/>
+                        <depend id="65" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="64" name="Desenhar fluxos de relacionamento por meios digitais" color="#8cb6ce" meeting="false" start="2010-10-11" duration="5" complete="0" priority="1" expand="true">
+                        <depend id="66" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="65" name="Estruturar e hierarquizar conteúdos e funcionalidades" color="#8cb6ce" meeting="false" start="2010-10-11" duration="5" complete="0" priority="1" expand="true">
+                        <depend id="66" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="66" name="Definir plano de métricas para acompanhamento de desempenho dos projetos" color="#8cb6ce" meeting="false" start="2010-10-18" duration="5" complete="0" priority="1" expand="true">
+                        <depend id="67" type="2" difference="0" hardness="Strong"/>
+                        <depend id="68" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="67" name="Aplicar testes de usabilidade, acessibilidade e navegabilidade" color="#8cb6ce" meeting="false" start="2010-10-25" duration="5" complete="0" priority="1" expand="true"/>
+                    <task id="68" name="Capacitar profissionais para a gestão dos canais de atendimento para os meios planejados" color="#8cb6ce" meeting="false" start="2010-10-25" duration="5" complete="0" priority="1" expand="true"/>
+                </task>
+            </task>
+            <task id="77" name="Teste de Usabilidade" color="#8cb6ce" meeting="false" start="2010-12-23" duration="42" complete="0" priority="1" expand="true">
+                <depend id="86" type="2" difference="0" hardness="Strong"/>
+                <task id="82" name="Reuniões exploratórias para o levantamento de tarefas do público-alvo e definição de prazos" color="#8cb6ce" meeting="false" start="2010-12-23" duration="2" complete="0" priority="1" expand="true"/>
+                <task id="83" name="Recrutamento de pessoas para aplicação dos testes" color="#8cb6ce" meeting="false" start="2010-12-23" duration="2" complete="0" priority="1" expand="true"/>
+                <task id="84" name="Realização dos testes" color="#8cb6ce" meeting="false" start="2010-12-27" duration="3" complete="0" priority="1" expand="true"/>
+                <task id="79" name="Sala de espelho" color="#8cb6ce" meeting="false" start="2010-12-27" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="80" name="Sala de teste com câmera de vídeo e microfone" color="#8cb6ce" meeting="false" start="2010-12-27" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="81" name="Software de teste com mapeamento de movimento de mouse, sincronização de áudio e vídeo e emissão de relatório" color="#8cb6ce" meeting="false" start="2010-12-27" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="86" name="Relatório" color="#8cb6ce" meeting="false" start="2011-02-14" duration="5" complete="0" priority="1" expand="true">
+                    <depend id="69" type="2" difference="0" hardness="Strong"/>
+                    <task id="87" name="Mapa Mental de requisitos de negócio" color="#8cb6ce" meeting="false" start="2011-02-14" duration="5" complete="0" priority="1" expand="true"/>
+                    <task id="88" name="Regras de negócio das funcionalidades a serem implementadas" color="#8cb6ce" meeting="false" start="2011-02-14" duration="5" complete="0" priority="1" expand="true"/>
+                    <task id="89" name="Relatório do teste de usabilidade" color="#8cb6ce" meeting="false" start="2011-02-14" duration="5" complete="0" priority="1" expand="true"/>
+                </task>
+            </task>
+            <task id="69" name="Atualização evolutiva" color="#8cb6ce" meeting="false" start="2011-02-21" duration="364" complete="0" priority="1" expand="true">
+                <task id="70" name="Alterações para correção de conteúdos ou outras correções advindas do uso ou funcionamento, incluindo adaptações por fatores externos" color="#8cb6ce" meeting="false" start="2011-02-21" duration="364" complete="0" priority="1" expand="true"/>
+                <task id="71" name="Inclusões novas características, conteúdos e/ou funcionalidades" color="#8cb6ce" meeting="false" start="2011-02-21" duration="364" complete="0" priority="1" expand="true"/>
+                <task id="72" name="Revisões de conteúdos" color="#8cb6ce" meeting="false" start="2011-02-21" duration="364" complete="0" priority="1" expand="true"/>
+                <task id="73" name="Aplicação testes sistemáticos" color="#8cb6ce" meeting="false" start="2011-02-21" duration="364" complete="0" priority="1" expand="true"/>
+                <task id="74" name="Realização de análises permanentes para identificar deficiências ou não-conformidades; pontos de observação; meta-informações; título das páginas; links; imagens; textos; formulários; funcionalidades; usabilidade; acessibilidade e outros" color="#8cb6ce" meeting="false" start="2011-02-21" duration="364" complete="0" priority="1" expand="true"/>
+                <task id="75" name="Realização de análises permanentes do mercado, propondo inovações" color="#8cb6ce" meeting="false" start="2011-02-21" duration="364" complete="0" priority="1" expand="true"/>
+                <task id="76" name="Monitoração do desempenho dos portais, sites e ações web em relação a audiência e visitação" color="#8cb6ce" meeting="false" start="2011-02-21" duration="364" complete="0" priority="1" expand="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Gerenciamento de Projeto" function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="Gerenciamento do Planejamento" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Direção de Criação" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Arquitetura da Informação" function="Default:0" contacts="" phone=""/>
+        <resource id="4" name="Design" function="Default:0" contacts="" phone=""/>
+        <resource id="5" name="Redação" function="Default:0" contacts="" phone=""/>
+        <resource id="6" name="Gerenciamento de Tecnologia" function="Default:0" contacts="" phone=""/>
+        <resource id="7" name="Programação WEB" function="Default:0" contacts="" phone=""/>
+        <resource id="8" name="Análise de Conteúdo" function="Default:0" contacts="" phone=""/>
+        <resource id="9" name="Análise de Controle de Qualidade" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="12" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="7" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="29" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="38" resource-id="7" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="38" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="47" resource-id="7" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="47" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="77" resource-id="9" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="69" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="69" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="69" resource-id="7" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="69" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd3" order="0" width="317"/>
+        <displaycolumn property-id="tpd4" order="1" width="15"/>
+        <displaycolumn property-id="tpd5" order="2" width="15"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
