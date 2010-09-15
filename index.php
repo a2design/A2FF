@@ -95,7 +95,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Template-Base</td>
-								<td class="descricao">Template de página</td>
+								<td class="descricao">Template de páginas</td>
 								<td class="tipos">
 									<a href="snippets/template.html">HTML</a>
 									<a href="snippets/template.css">CSS</a></td>
@@ -107,7 +107,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Blueprint-Base</td>
-								<td class="descricao">Template de página</td>
+								<td class="descricao">Template de páginas</td>
 								<td class="tipos">
 									<a href="snippets/blueprint.html">HTML</a></td>
 								<td class="estrutural">Estrutural</td>
@@ -118,7 +118,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Blueprint-Grid</td>
-								<td class="descricao">Template de página com grid</td>
+								<td class="descricao">Template de páginas com grid</td>
 								<td class="tipos">
 									<a href="snippets/blueprint-grid.html">HTML</a></td>
 								<td class="estrutural">Estrutural</td>
@@ -128,8 +128,8 @@
 							</tr>
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
-								<td class="nome">Blueprint-Tipográfia</td>
-								<td class="descricao">Template de página com grid e tratamento tipográfico</td>
+								<td class="nome">Blueprint-Tipogrï¿½fia</td>
+								<td class="descricao">Template de páginas com grid e tratamento tipogrï¿½fico</td>
 								<td class="tipos">
 									<a href="snippets/blueprint-elements.html">HTML</a></td>
 								<td class="estrutural">Estrutural</td>
@@ -140,7 +140,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Blueprint-Formulários</td>
-								<td class="descricao">Template de página com formulários</td>
+								<td class="descricao">Template de páginas com Formulários</td>
 								<td class="tipos">
 									<a href="snippets/blueprint-forms.html">HTML</a></td>
 								<td class="estrutural">Estrutural</td>
@@ -151,7 +151,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Amostras e reset</td>
-								<td class="descricao">Modelos de estruturas básicas, e reset para zerar o css da página</td>
+								<td class="descricao">Modelos de estruturas básicas, e reset para zerar o css da páginas</td>
 								<td class="tipos">
 									<a href="snippets/amostras.html">HTML</a>
 									<a href="snippets/reset.css">CSS</a></td>
@@ -163,7 +163,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Logo</td>
-								<td class="descricao">Modelo de estrutura para inserção de logo na página</td>
+								<td class="descricao">Modelo de estrutura para inserção de logo na páginas</td>
 								<td class="tipos">
 									<a href="snippets/logo.html">HTML</a>
 									<a href="snippets/logo.css">CSS</a></td>
@@ -175,7 +175,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Template Mobile</td>
-								<td class="descricao">Modelo de template básico para páginas destinadas a mobile</td>
+								<td class="descricao">Modelo de template básico para páginass destinadas a mobile</td>
 								<td class="tipos">
 									<a href="snippets/template_mobile.html">HTML</a>
 									<a href="snippets/template_mobile.css">CSS</a></td>
@@ -186,8 +186,8 @@
 							</tr>
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
-								<td class="nome">Página 404</td>
-								<td class="descricao">Modelo de página destinada ao erro 404</td>
+								<td class="nome">páginas 404</td>
+								<td class="descricao">Modelo de páginas destinada ao erro 404</td>
 								<td class="tipos">
 									<a href="snippets/erro404.html">HTML</a>
 									<a href="snippets/erro404.css">CSS</a></td>
@@ -198,7 +198,7 @@
 							</tr>
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
-								<td class="nome">Endereço-Microformatos</td>
+								<td class="nome">endereço-Microformatos</td>
 								<td class="descricao">Modelo de estrutura para aplicação de endereço utilizando microformatos</td>
 								<td class="tipos">
 									<a href="snippets/endereco.html">HTML</a></td>
@@ -209,7 +209,7 @@
 							</tr>
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
-								<td class="nome">Impressão</td>
+								<td class="nome">impressão</td>
 								<td class="descricao">Modelo básico de CSS para impressão</td>
 								<td class="tipos">
 									<a href="snippets/print.css">CSS</a></td>
@@ -232,7 +232,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Icones e avisos</td>
-								<td class="descricao">Modelo padrão para utilização de icones e avisos nas páginas</td>
+								<td class="descricao">Modelo padrão para utilização de icones e avisos nas páginass</td>
 								<td class="tipos">
 									<a href="snippets/icones.html">HTML</a>
 									<a href="snippets/icones.css">CSS</a></td>
@@ -268,7 +268,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Paginação</td>
-								<td class="descricao">Estrutura completa de paginação</td>
+								<td class="descricao">Estrutura completa de Paginação</td>
 								<td class="tipos">
 									<a href="snippets/paginacao.html">HTML</a>
 									<a href="snippets/paginacao.css">CSS</a></td>
@@ -280,7 +280,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Paginação-Lite</td>
-								<td class="descricao">Estrutura básica de paginação</td>
+								<td class="descricao">Estrutura básica de Paginação</td>
 								<td class="tipos">
 									<a href="snippets/paginacao_lite.html">HTML</a>
 									<a href="snippets/paginacao_lite.css">CSS</a></td>
@@ -362,7 +362,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Imagem</td>
-								<td class="descricao">Estrutura de imagem simples, com descrição</td>
+								<td class="descricao">Estrutura de imagem simples, com Descrição</td>
 								<td class="tipos">
 									<a href="snippets/imagem.html">HTML</a>
 									<a href="snippets/imagem.css">CSS</a></td>
@@ -391,7 +391,7 @@
 								<td class="tipos">
 									<a href="snippets/lista_noticias.html">HTML</a>
 									<a href="snippets/lista_noticias.css">CSS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="listas">Listas</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="demo/lista_noticias.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
@@ -403,7 +403,7 @@
 								<td class="tipos">
 									<a href="snippets/lista-noticias_tabela.html">HTML</a>
 									<a href="snippets/lista-noticias_tabela.css">CSS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="listas">Listas</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="demo/lista-noticias_tabela.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
@@ -422,7 +422,7 @@
 							</tr>
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
-								<td class="nome">Vídeo</td>
+								<td class="nome">vídeo</td>
 								<td class="descricao">Player de vídeo com legenda</td>
 								<td class="tipos">
 									<a href="snippets/video.html">HTML</a>
@@ -455,7 +455,7 @@
 							</tr>
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
-								<td class="nome">Vídeo (html5)</td>
+								<td class="nome">vídeo (html5)</td>
 								<td class="descricao">Player de vídeo em HTM5</td>
 								<td class="tipos">--</td>
 								<td class="multimidia">Multimídia</td>
@@ -495,7 +495,7 @@
 								<td class="tipos">
 									<a href="snippets/twitter.html">HTML</a>
 									<a href="snippets/twitter.css">CSS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="redes">Redes Sociais</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="demo/twitter.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
@@ -503,7 +503,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Tamanho do texto</td>
-								<td class="descricao">Estrutura para que o usuário aumente ou mininua o tamanha do texto da página</td>
+								<td class="descricao">Estrutura para que o usuário aumente ou mininua o tamanha do texto da páginas</td>
 								<td class="tipos">
 									<a href="snippets/texto.html">HTML</a>
 									<a href="snippets/texto.css">CSS</a>
@@ -539,48 +539,48 @@
 							</tr>
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
-								<td class="nome">Lista de àlbuns</td>
-								<td class="descricao">Lista de álbuns com título, descrição e imagem</td>
+								<td class="nome">Lista de álbuns</td>
+								<td class="descricao">Lista de álbuns com título, Descrição e imagem</td>
 								<td class="tipos">
 									<a href="snippets/lista-albuns.html">HTML</a>
 									<a href="snippets/template.css">CSS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="listas">Listas</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="demo/lista-albuns.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
-								<td class="nome">Lista de Álbuns-Tabela</td>
+								<td class="nome">Lista de álbuns-Tabela</td>
 								<td class="descricao">Lista de albuns feito em tabela, baseado no site Arnaldo Madeira</td>
 								<td class="tipos">
 									<a href="snippets/lista-albuns_tabela.html">HTML</a>
 									<a href="snippets/template.css">CSS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="listas">Listas</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="demo/lista-albuns_tabela.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
-								<td class="nome">Lista de Comentários</td>
+								<td class="nome">Lista de comentários</td>
 								<td class="descricao">Estrutura básica para lista de comentários</td>
 								<td class="tipos">
 									<a href="snippets/lista-comentarios.html">HTML</a>
 									<a href="snippets/lista-comentarios.css">CSS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="listas">Listas</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="demo/lista-comentarios.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
-								<td class="nome">Lista de Comentários</td>
+								<td class="nome">Lista de comentários</td>
 								<td class="descricao">Estrutura para lista de comentários, baseado no site Cidadão Sp</td>
 								<td class="tipos">
 									<a href="snippets/lista-comentarios_v2.html">HTML</a>
 									<a href="snippets/lista-comentarios_v2.css">CSS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="listas">Listas</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="demo/lista-comentarios_v2.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
@@ -588,7 +588,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Endereço-Microformatos</td>
-								<td class="descricao">Estrutura para endereços, utilizando as tags especificas para tal</td>
+								<td class="descricao">Estrutura para endereço, utilizando as tags especificas para tal</td>
 								<td class="tipos">
 									<a href="snippets/endereco.html">HTML</a></td>
 								<td class="multimidia">Multimídia</td>
@@ -705,7 +705,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">CSS3 Gradient Buttons</td>
-								<td class="descricao">Estrutura de botões com efeitos de degrade utilizando CSS 3</td>
+								<td class="descricao">Estrutura de Botões com efeitos de degrade utilizando CSS 3</td>
 								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
 								<td class="multimidia">Multimídia</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
@@ -738,7 +738,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Busca</td>
-								<td class="descricao">Formulário básico de busca</td>
+								<td class="descricao">Formulários básico de busca</td>
 								<td class="tipos"><a href="#">HTML</a><a href="#">JS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
@@ -748,7 +748,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Login</td>
-								<td class="descricao">Formulário básico de login</td>
+								<td class="descricao">Formulários básico de login</td>
 								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
@@ -758,7 +758,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Recuperação de senha</td>
-								<td class="descricao">Formulário básico para recuperação de senha</td>
+								<td class="descricao">Formulários básico para Recuperação de senha</td>
 								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
@@ -768,7 +768,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Enquete</td>
-								<td class="descricao">Formulário básico para enquetes</td>
+								<td class="descricao">Formulários básico para enquetes</td>
 								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
@@ -778,7 +778,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Fale Conosco</td>
-								<td class="descricao">Formulário básico para contato</td>
+								<td class="descricao">Formulários básico para contato</td>
 								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
@@ -788,7 +788,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Receber notícias</td>
-								<td class="descricao">Formulário básico para cadastro de recebimento de notícias</td>
+								<td class="descricao">Formulários básico para cadastro de recebimento de notícias</td>
 								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
@@ -798,7 +798,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Cadastro</td>
-								<td class="descricao">Formulário básico para cadastro</td>
+								<td class="descricao">Formulários básico para cadastro</td>
 								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
@@ -808,7 +808,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Cadastro-jQuery Validade</td>
-								<td class="descricao">Formulário para cadastro com validação em jQuery</td>
+								<td class="descricao">Formulários para cadastro com validação em jQuery</td>
 								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
@@ -817,8 +817,8 @@
 							</tr>
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
-								<td class="nome">Formulário (In-Field Labels)</td>
-								<td class="descricao">Formulário utilizando jQuery In-Field Labels para dar efeito nos campos</td>
+								<td class="nome">Formulários (In-Field Labels)</td>
+								<td class="descricao">Formulários utilizando jQuery In-Field Labels para dar efeito nos campos</td>
 								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
@@ -828,7 +828,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Comentario/Cadastro/Atualização</td>
-								<td class="descricao">Estrutura contendo chamadas para comentario, cadastro e atualizaçãod e dados cadastrais</td>
+								<td class="descricao">Estrutura contendo chamadas para comentario, cadastro e Atualização de dados cadastrais</td>
 								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
@@ -838,7 +838,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Botões-Google</td>
-								<td class="descricao">Botões para formulário no estilo do Gmail. Não há suporte para o IE, e pequenos defeitos no Opera</td>
+								<td class="descricao">Botões para Formulários no estilo do Gmail. Não há suporte para o IE, e pequenos defeitos no Opera</td>
 								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
@@ -848,7 +848,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Formee</td>
-								<td class="descricao">Framework exclusivo para formulários</td>
+								<td class="descricao">Framework exclusivo para Formulários</td>
 								<td class="tipos"><a href="#">HTML</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
@@ -881,7 +881,7 @@
 				<li><a id="bt_funcionamento" href="javascript:void(0);" class="bt ui-state-default ui-corner-all"><span class="ui-icon ui-icon-help"></span>Como funciona</a></li>
 				<li><a id="bt_sobre" href="javascript:void(0);" class="bt ui-state-default ui-corner-all"><span class="ui-icon ui-icon-star"></span>Sobre</a></li>
 			</ul>
-			<img src="img/a2.png" alt="A2 Comunicação"/>
+			<img src="img/a2.png" alt="A2 Comunicaï¿½ï¿½o"/>
 		</div>
 	</div>
 </div>
@@ -889,7 +889,7 @@
 <div id="sobre" title="Sobre o A2 Front-end Framework">
 	<img src="img/logo_menor.png" alt="A2FF" />
 	<ul>
-		<li>Versão 1.0 Revisão 00</li>
+		<li>Versï¿½o 1.0 Revisï¿½o 00</li>
 		<li>jQuery 1.4.2</li>
 		<li>jQuery UI 1.8.2</li>
 	</ul>
@@ -899,29 +899,29 @@
 	<div id="tabs_funcionamento">
 		<ul>
 			<li><a href="#tab01">Intro</a></li>
-			<li><a href="#tab02">Módulo</a></li>
+			<li><a href="#tab02">mÃ³dulo</a></li>
 			<li><a href="#tab03">Download</a></li>
 		</ul>
 	
 		<div id="tab01">
-			<p>O <strong>A2FF</strong> objetiva ser o primeiro passo de um projeto web. Ele contém todos os templates necessários para a execução de um projeto, do início ao fim.</p>
-			<p>A interface consiste em uma busca para filtro, uma tabela onde cada linha representa um módulo, e um painel de controle para download e informações relacionadas a este aplicativo.</p>
+			<p>O <strong>A2FF</strong> objetiva ser o primeiro passo de um projeto web. Ele contÃ©m todos os templates necessï¿½rios para a execuï¿½ï¿½o de um projeto, do inï¿½cio ao fim.</p>
+			<p>A interface consiste em uma busca para filtro, uma tabela onde cada linha representa um mÃ³dulo, e um painel de controle para download e informaï¿½ï¿½es relacionadas a este aplicativo.</p>
 		</div>
 	
 		<div id="tab02">
-			<p>Cada módulo contém:</p>
+			<p>Cada mÃ³dulo contÃ©m:</p>
 			<ul>
-				<li>Uma <em>caixa de seleção</em> para Download.</li>
-				<li><em>Nome, descrição, categoria, status e demonstração.</em></li>
-				<li>O <em>Tipo</em> dos arquivos, descrição de cada arquivo que compõe o módulo.</li>
-				<li><em>Download</em> direto deste módulo somente.</li>
+				<li>Uma <em>caixa de seleÃ§Ã£o</em> para Download.</li>
+				<li><em>Nome, Descrição, categoria, status e Demonstração.</em></li>
+				<li>O <em>Tipo</em> dos arquivos, Descrição de cada arquivo que compï¿½e o mÃ³dulo.</li>
+				<li><em>Download</em> direto deste mÃ³dulo somente.</li>
 			</ul>
 		</div>
 		<div id="tab03">
 			<p>Existem dois tipos de download:</p>
 			<ul>
-				<li><strong>Download direto</strong> download de um módulo específico.</li>
-				<li><strong>Download geral</strong> download de uma seleção de módulos.</li>
+				<li><strong>Download direto</strong> download de um mÃ³dulo espefÃ­fico.</li>
+				<li><strong>Download geral</strong> download de uma seleÃ§Ã£o de mÃ³dulos.</li>
 			</ul>	
 		</div>
 	</div>
