@@ -342,7 +342,7 @@
 								<td class="descricao">Estrutura de chamada, com antetítulo, título e subtítulo</td>
 								<td class="tipos">
 									<a href="snippets/chamada.html">HTML</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="texto">Texto</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="demo/chamada.php">Demonstração</a></td>
 								<td class="download"><a href="snippets/chamada.html">Download</a></td>
@@ -354,7 +354,7 @@
 								<td class="tipos">
 									<a href="snippets/chamada_imagem.html">HTML</a>
 									<a href="snippets/chamada_imagem.css">CSS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="imagem">Imagem</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="demo/chamada_imagem.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
@@ -366,7 +366,7 @@
 								<td class="tipos">
 									<a href="snippets/imagem.html">HTML</a>
 									<a href="snippets/imagem.css">CSS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="imagem">Imagem</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="demo/imagem.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
@@ -379,7 +379,7 @@
 									<a href="snippets/imagem_lightbox.html">HTML</a>
 									<a href="snippets/imagem_lightbox.css">CSS</a>
 									<a href="snippets/imagem_lightbox.js">JS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="imagem">Imagem</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="demo/imagem_lightbox.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
@@ -415,19 +415,19 @@
 								<td class="tipos">
 									<a href="snippets/audio.html">HTML</a>
 									<a href="snippets/audio.css">CSS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="audio">Audio</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="demo/audio.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
-								<td class="nome">vídeo</td>
+								<td class="nome">Vídeo</td>
 								<td class="descricao">Player de vídeo com legenda</td>
 								<td class="tipos">
 									<a href="snippets/video.html">HTML</a>
 									<a href="snippets/video.css">CSS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="video">Vídeo</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="demo/video.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
@@ -438,7 +438,7 @@
 								<td class="descricao">Player de áudio em HTM5(suporte parcial mesmo nos navegadores modernos)</td>
 								<td class="tipos">
 									<a href="snippets/audio5.html">HTML</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="audio">Audio</td>
 								<td class="status"><span class="partial" title="Funcionamento parcial">Parcial</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
 								<td class="download"><a href="snippets/audio5.html">Download</a></td>
@@ -448,17 +448,17 @@
 								<td class="nome">Audio (jPlayer)</td>
 								<td class="descricao">Player de áudio em jQuery(os controles funcionam, mas a musica nao toca)</td>
 								<td class="tipos">--</td>
-								<td class="multimidia">Multimídia</td>
+								<td class="audio">Audio</td>
 								<td class="status"><span class="error" title="Funcionamento com erros">Erro</span></td>
 								<td class="demo"><a href="demo/jplayer.php">Demonstração</a></td>
 								<td class="download disable"><a href="#">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
-								<td class="nome">vídeo (html5)</td>
+								<td class="nome">Vídeo (html5)</td>
 								<td class="descricao">Player de vídeo em HTM5</td>
 								<td class="tipos">--</td>
-								<td class="multimidia">Multimídia</td>
+								<td class="video">Vídeo</td>
 								<td class="status"><span class="error" title="Funcionamento com erros">Erro</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
 								<td class="download disable"><a href="#">Download</a></td>
@@ -470,7 +470,7 @@
 								<td class="tipos">
 									<a href="snippets/slideshow.html">HTML</a>
 									<a href="snippets/slideshow.css">CSS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="imagem">Imagem</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="demo/slideshow.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
@@ -483,7 +483,7 @@
 									<a href="snippets/album-de-fotos_galleryview.html">HTML</a>
 									<a href="snippets/album-de-fotos_galleryview.css">CSS</a>
 									<a href="snippets/album-de-fotos_galleryview.js">JS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="imagem">Imagem</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="demo/album-de-fotos_galleryview.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
@@ -508,7 +508,7 @@
 									<a href="snippets/texto.html">HTML</a>
 									<a href="snippets/texto.css">CSS</a>
 									<a href="snippets/texto.js">JS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="texto">Texto</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="demo/texto.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
@@ -591,7 +591,7 @@
 								<td class="descricao">Estrutura para endereço, utilizando as tags especificas para tal</td>
 								<td class="tipos">
 									<a href="snippets/endereco.html">HTML</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="texto">Texto</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="snippets/endereco.html">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
@@ -617,7 +617,7 @@
 									<a href="snippets/slide-de-imagens_I.html">HTML</a>
 									<a href="snippets/slide-de-imagens_I.css">CSS</a>
 									<a href="js/scripts.slide-imagens.js">JS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="imagem">Imagem</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo"><a href="demo/slide-de-imagens_I.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
@@ -627,7 +627,7 @@
 								<td class="nome">Slide de Imagens-II</td>
 								<td class="descricao">Estrutura de slide de imagens</td>
 								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="imagem">Imagem</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
@@ -637,7 +637,7 @@
 								<td class="nome">Slide de Imagens-Carrossel</td>
 								<td class="descricao">Estrutura de slide de imagens com efeito carrosel</td>
 								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a><a href="#">JS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="imagem">Imagem</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
@@ -647,7 +647,7 @@
 								<td class="nome">Slide de Imagens-Cycle</td>
 								<td class="descricao">Estrutura de slide de imagens com efeito cycle</td>
 								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="imagem">Imagem</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
@@ -687,7 +687,7 @@
 								<td class="nome">Google Fonts</td>
 								<td class="descricao">API para diferentes fontes renderizadas diretamente no browser</td>
 								<td class="tipos"><a href="#">HTML</a></td>
-								<td class="multimidia">Multimídia</td>
+								<td class="texto">Texto</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
@@ -730,7 +730,7 @@
 									<a href="snippets/slideshow-redimensionamento.html">HTML</a>
 									<a href="snippets/slideshow-redimensionamento.css">CSS</a>
 								</td>
-								<td class="multimidia">Multimídia</td>
+								<td class="imagem">Imagem</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo enable"><a href="demo/slideshow-redimensionamento.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
