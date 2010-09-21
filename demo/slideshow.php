@@ -14,7 +14,7 @@
 
 </head>
 <body id="">
-<?php include("../snippets/slideshow.html");?>
+	<?php include("../snippets/slideshow.html");?>
 </body>
 </html>
 

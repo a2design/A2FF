@@ -128,7 +128,7 @@
 							</tr>
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
-								<td class="nome">Blueprint-Tipogrï¿½fia</td>
+								<td class="nome">Blueprint-Tipografia</td>
 								<td class="descricao">Template de páginas com grid e tratamento tipogrï¿½fico</td>
 								<td class="tipos">
 									<a href="snippets/blueprint-elements.html">HTML</a></td>
@@ -502,6 +502,17 @@
 							</tr>
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
+								<td class="nome">Facebook</td>
+								<td class="descricao">Aplicativo que mostra as atividades recentes do usuário</td>
+								<td class="tipos">
+									<a href="snippets/facebook_recent.html">HTML</a>
+								<td class="redes">Redes Sociais</td>
+								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
+								<td class="demo"><a href="snippets/facebook_recent.html">Demonstração</a></td>
+								<td class="download"><a href="#">Download</a></td>
+							</tr>
+							<tr class="odd gradeA">
+								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Tamanho do texto</td>
 								<td class="descricao">Estrutura para que o usuário aumente ou mininua o tamanha do texto da páginas</td>
 								<td class="tipos">
@@ -626,7 +637,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Slide de Imagens-II</td>
 								<td class="descricao">Estrutura de slide de imagens</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="imagem">Imagem</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -636,7 +649,10 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Slide de Imagens-Carrossel</td>
 								<td class="descricao">Estrutura de slide de imagens com efeito carrosel</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a><a href="#">JS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a>
+									<a href="#">JS</a></td>
 								<td class="imagem">Imagem</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -646,7 +662,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Slide de Imagens-Cycle</td>
 								<td class="descricao">Estrutura de slide de imagens com efeito cycle</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="imagem">Imagem</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -656,7 +674,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Menu-BubleUp</td>
 								<td class="descricao">Estrutura de menu com efeito bubleup feito com jQuery</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="multimidia">Multimídia</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -666,7 +686,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Quicksand</td>
 								<td class="descricao">Filtro de elementos, Suporte para os seguintes browsers: Safari 4, Chrome 4, Firefox 3.5, Firefox 3.0, Opera 10.15, Internet Explorer 7, Internet Explorer 8.</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="multimidia">Multimídia</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -676,7 +698,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Dropdown-Panel</td>
 								<td class="descricao">Estrutura de painel dropdown</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="multimidia">Multimídia</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -686,7 +710,7 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Google Fonts</td>
 								<td class="descricao">API para diferentes fontes renderizadas diretamente no browser</td>
-								<td class="tipos"><a href="#">HTML</a></td>
+								<td class="tipos"><a href="snippets/google-fonts.html">HTML</a></td>
 								<td class="texto">Texto</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -696,7 +720,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Google Maps-Icons</td>
 								<td class="descricao">API do google maps com icons</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="multimidia">Multimídia</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -706,7 +732,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">CSS3 Gradient Buttons</td>
 								<td class="descricao">Estrutura de Botões com efeitos de degrade utilizando CSS 3</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="multimidia">Multimídia</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -716,7 +744,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">CSS3 para IE</td>
 								<td class="descricao">Soluções para Internet Explorer CSS3 de Opacidade / Transparência, Cantos arredondados (border-radius), Shadow Box, Text Shadow, Gradientes,Cores de fundo transparente (RGBA)</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="multimidia">Multimídia</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -739,7 +769,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Busca</td>
 								<td class="descricao">Formulários básico de busca</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">JS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">JS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -749,7 +781,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Login</td>
 								<td class="descricao">Formulários básico de login</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -759,7 +793,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Recuperação de senha</td>
 								<td class="descricao">Formulários básico para Recuperação de senha</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -769,7 +805,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Enquete</td>
 								<td class="descricao">Formulários básico para enquetes</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -779,7 +817,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Fale Conosco</td>
 								<td class="descricao">Formulários básico para contato</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -789,7 +829,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Receber notícias</td>
 								<td class="descricao">Formulários básico para cadastro de recebimento de notícias</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -799,7 +841,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Cadastro</td>
 								<td class="descricao">Formulários básico para cadastro</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -809,7 +853,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Cadastro-jQuery Validade</td>
 								<td class="descricao">Formulários para cadastro com validação em jQuery</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -819,7 +865,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Formulários (In-Field Labels)</td>
 								<td class="descricao">Formulários utilizando jQuery In-Field Labels para dar efeito nos campos</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -829,7 +877,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Comentario/Cadastro/Atualização</td>
 								<td class="descricao">Estrutura contendo chamadas para comentario, cadastro e Atualização de dados cadastrais</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
@@ -839,7 +889,9 @@
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Botões-Google</td>
 								<td class="descricao">Botões para Formulários no estilo do Gmail. Não há suporte para o IE, e pequenos defeitos no Opera</td>
-								<td class="tipos"><a href="#">HTML</a><a href="#">CSS</a></td>
+								<td class="tipos">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
 								<td class="demo disable"><a href="#">Demonstração</a></td>
