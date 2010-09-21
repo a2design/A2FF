@@ -7,19 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="../snippets/login.css" media="all" />
 </head>
 <body id="teste">
-<div id="login">
-	<form action="javascript:void(0);">
-		<label for="l1">
-			<span>Nome do usuário</span>
-			<input type="text" class="input_text" name="l1" />
-		</label>
-		<label for="l2">
-			<span>Senha</span>
-			<input type="text" class="input_text" name="l2" />
-		</label>
-		<input type="submit" class="input_submit" value="Entrar" />
-	</form>
-</div>
+	<?php include('../snippets/login.php');?>
 </body>
 </html>
 
