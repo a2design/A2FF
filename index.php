@@ -655,7 +655,7 @@
 									<a href="#">JS</a></td>
 								<td class="imagem">Imagem</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="demo"><a href="demo/slide-de-imagens_efeito_carrossel.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
@@ -667,7 +667,7 @@
 									<a href="#">CSS</a></td>
 								<td class="imagem">Imagem</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="demo"><a href="demo/slide-de-imagens_efeito_cycle.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
@@ -679,7 +679,7 @@
 									<a href="#">CSS</a></td>
 								<td class="multimidia">Multimídia</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="demo"><a href="demo/menu_bubbleup.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
@@ -691,7 +691,7 @@
 									<a href="#">CSS</a></td>
 								<td class="multimidia">Multimídia</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="demo"><a href="demo/quicksand.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
@@ -703,7 +703,7 @@
 									<a href="#">CSS</a></td>
 								<td class="multimidia">Multimídia</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="demo"><a href="demo/dropdownpanel.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
@@ -713,7 +713,7 @@
 								<td class="tipos"><a href="snippets/google-fonts.html">HTML</a></td>
 								<td class="texto">Texto</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="demo"><a href="demo/google-fonts.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
