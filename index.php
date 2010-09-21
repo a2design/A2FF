@@ -762,7 +762,7 @@
 								</td>
 								<td class="imagem">Imagem</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo enable"><a href="demo/slideshow-redimensionamento.php">Demonstração</a></td>
+								<td class="demo"><a href="demo/slideshow-redimensionamento.php">Demonstração</a></td>
 								<td class="download"><a href="#">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
