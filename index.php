@@ -749,7 +749,7 @@
 									<a href="#">CSS</a></td>
 								<td class="multimidia">Multimídia</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="demo"><a href="demo/css3-para-ie.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
