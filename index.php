@@ -106,6 +106,20 @@
 							</tr>
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
+								<td class="nome">Template Boilerplate</td>
+								<td class="descricao">Template de páginas HTML5</td>
+								<td class="tipos">
+									<a href="snippets/template-boilerplate.html">[HTML]</a>
+									<a href="snippets/template-boilerplate-style.css">[CSS]</a>
+									<a href="snippets/template-boilerplate-handheld.css">[CSS]</a>
+									<a href="js/modernizr-1.5.min.js">[JS]</a></td>
+								<td class="estrutural">Estrutural</td>
+								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
+								<td class="demo"><a href="demo/template-boilerplate.php">Demonstração</a></td>
+								<td class="download"><a href="#">Download</a></td>
+							</tr>
+							<tr class="odd gradeA">
+								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Blueprint-Base</td>
 								<td class="descricao">Template de páginas</td>
 								<td class="tipos">
@@ -129,7 +143,7 @@
 							<tr class="odd gradeA">
 								<td class="input"><input type="checkbox" value="" class="input_checkbox"/></td>
 								<td class="nome">Blueprint-Tipografia</td>
-								<td class="descricao">Template de páginas com grid e tratamento tipogrï¿½fico</td>
+								<td class="descricao">Template de páginas com grid e tratamento tipográfico</td>
 								<td class="tipos">
 									<a href="snippets/blueprint-elements.html">HTML</a></td>
 								<td class="estrutural">Estrutural</td>
@@ -774,7 +788,7 @@
 									<a href="#">JS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="demo"><a href="demo/busca.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
@@ -786,7 +800,7 @@
 									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="demo"><a href="demo/login.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
@@ -798,7 +812,7 @@
 									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="demo"><a href="demo/esqueceu.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
@@ -810,7 +824,7 @@
 									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="demo"><a href="demo/enquete.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
@@ -822,7 +836,7 @@
 									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="demo"><a href="demo/fale-conosco.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
@@ -834,7 +848,7 @@
 									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="demo"><a href="demo/receber-noticias.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
@@ -846,7 +860,7 @@
 									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="demo"><a href="demo/cadastro.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
@@ -870,7 +884,7 @@
 									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="demo"><a href="demo/formulario-infield-labels.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
@@ -882,7 +896,7 @@
 									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="demo"><a href="demo/comentar.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
@@ -893,8 +907,8 @@
 									<a href="#">HTML</a>
 									<a href="#">CSS</a></td>
 								<td class="formularios">Formulários</td>
-								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="status"><span class="partial" title="Funcionamento completo">Completo</span></td>
+								<td class="demo"><a href="demo/botao_google.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 							<tr class="odd gradeA">
@@ -904,7 +918,7 @@
 								<td class="tipos"><a href="#">HTML</a></td>
 								<td class="formularios">Formulários</td>
 								<td class="status"><span class="complete" title="Funcionamento completo">Completo</span></td>
-								<td class="demo disable"><a href="#">Demonstração</a></td>
+								<td class="demo"><a href="demo/formee.php">Demonstração</a></td>
 								<td class="download"><a href="/prod/sitemaps/descritivo.xls">Download</a></td>
 							</tr>
 				</tbody>
